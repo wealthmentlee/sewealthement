@@ -1,0 +1,347 @@
+"like_Likes Plugin";"Likes Plugin"
+"like_FAN_FORM_ADMIN_GLOBAL_DESCRIPTION";"These settings affect all members in your community. Below you can view basic settings and widgets settings. Please note that to use `Most Liked Events` widget you need to have Events plugin installed, `Most Liked Groups` requires Groups plugin, `Most Liked Pages` requires our Pages plugin which can be found at http://www.hire-experts.com/social-engine/pages-se4-plugin"
+"like_LIKE_FORM_ADMIN_GLOBAL_PROFILE_DESCRIPTION";"Do you want to allow members to user(enable) likes for their profile? It is a global setting which overrides member level settings."
+"like_Profile Like Clubs";"Profile Likes"
+"like_No, members can not create profile like clubs.";"No, members can not use likes for their profiles."
+"like_Yes, members can create profile like clubs.";"Yes, members can use likes for their profiles."
+"like_Like Plugin Settings";"Like Plugin Settings"
+"like_Like Settings";"Like Settings"
+"like_%s or %s";"<b>%s</b> if you want to like this page or <b>%s</b>"
+"like_Allow Like Club Creation?";"Allow Likes Enabling?"
+"like_No, do not allow create like clubs.";"No, do not allow to enable likes for their profile."
+"like_Yes, allow create like clubs.";"Yes, allow to enable likes for their profile."
+"like_FAN_FORM_ADMIN_LEVEL_DESCRIPTION";"These settings are applied on a per member level basis. Start by selecting the member level you want to modify, then adjust the settings for that level below."
+"like_FAN_FORM_ADMIN_LEVEL_VIEW_DESCRIPTION";"Do you want to allow members to enable likes for their profiles?"
+"like_Count of profile likes";"Number of shown members on `Likes` widget"
+"like_Count of likes";"Number of shown members on `Members Like This` widget"
+"like_Pictures for Like Button and Like Box";"Logo which will be used in Like Button and Like Box"
+"_EMAIL_LIKE_SUGGEST_PAGE_TITLE";"Page Suggestion To Like"
+"_EMAIL_LIKE_SUGGEST_PAGE_SUBJECT";"[user] suggest you to like"
+"_EMAIL_LIKE_SUGGEST_PAGE_DESCRIPTION";"This is the email that gets sent to a member when they suggest to like a Page to their friends.
+<br />
+<br />
+Available placeholders:
+<br />
+[user] - sender name<br />
+[link] - html link with the Page name"
+"_EMAIL_LIKE_SUGGEST_PAGE_BODY";"[header]
+[user] suggest you to like [link] on social network.
+To see more details and like, follow the link below:
+[link]
+
+[footer]
+"
+"_EMAIL_LIKE_SUGGEST_USER_TITLE";"Member Suggestion To Like"
+"_EMAIL_LIKE_SUGGEST_USER_SUBJECT";"[user] suggest you to like"
+"_EMAIL_LIKE_SUGGEST_USER_DESCRIPTION";"This is the email that gets sent to a member when they suggest to like Member to their friends.
+<br />
+<br />
+Available placeholders:
+<br />
+[user] - sender name<br />
+[link] - html link with suggested Member name"
+"_EMAIL_LIKE_SUGGEST_USER_BODY";"[header]
+[user] suggest you to like [link] on social network.
+To see more details and like, follow the link below:
+[link]
+
+[footer]
+"
+
+"like_Likes";"Likes"
+"like_See All";"See All"
+"like_Total Likes";"Total Likes"
+"like_No likes.";"No likes."
+"like_See More";"See More"
+"like_<span class=\"bold\">%s</span> of your friends are already likes.";"<span class=\"bold\">%s</span> of your friends are already likes."
+"like_There is no likes.";"There are no likes."
+"like_LIKE_PROMOTE_BOX_TITLE";"Promote your page using social widgets"
+"like_LIKE_PROMOTE_BOX_DESC";"The Like Box and Like Button are social widgets that allow you to attract and gain Likes from your own website, blog or any other web page. These widgets enable your users to:<br />
+&nbsp;&nbsp;&nbsp;- See how many users already like this page, and which of their friends like it too<br />
+&nbsp;&nbsp;&nbsp;- Like the page with one click, without needing to visit the page<br />
+"
+"like_Promote";"Promote"
+"like_Like Button Code.";"Like Button code:"
+"like_Like Box Code.";"Like Box code:"
+"like_Like Button Preview:";"Like Button preview:"
+"like_Like Box Preview:";"Like Box preview:"
+"like__LIKE_SEND_UPDATE_DESC_";"Please use this form to send an update to all members who liked your page."
+"like_Send an Update to Likes";"Send an Update to Likes"
+"like_Send any internal message and e-mail for those members who liked it.";"Send mass message and e-mail for those members who liked it"
+"like_Enable";"Enable"
+"like_Disable";"Disable"
+"like_Remove from Likes";"Unlike"
+"like_Users and pages that you liked.";"View what you liked."
+"like_Promote your content in Internet by Like Box or Like Button widgets.";"Promote your page using Like Box or Like Button social widgets"
+"like_Suggest to friends, may be they will like it.";"Suggest to friends your page"
+"like_Like Information";"I like:"
+"like_On this page you can find like clubs you are involved.";"You can view your Likes on this page."
+"like_There is no like clubs.";"There are no likes"
+"like_Promote with Like Box";"Promote with Like Box"
+"like_Send an Update";"Send an Update"
+"like_Suggest to Friends";"Suggest to Friends"
+"like_Users <span id=\"like_users_count\">(0)</span>";"Users <span id=\"like_users_count\">(0)</span>"
+"like_Pages <span id=\"like_pages_count\">(0)</span>";"Pages <span id=\"like_pages_count\">(0)</span>"
+"LIKE_LOGIN_ERROR";"Authentication failed, please try again later."
+"like_LIKE_ADMIN_TURN_OFF_ERROR";"Failed. Admin turned off Likes."
+"like_LIKE_UNDEFINED_ERROR";"Failed, please try again later."
+"LIKE_UNDEFINED_ERROR";"Failed, please try again later."
+"like_UNLIKE_UNDEFINED_ERROR";"Failed, please try again later."
+"like_This like club was deleted.";"This page is not allowed for Likes. Please reload page."
+"like_You do not have enough right.";"Your account is not allowed for this action."
+"like_Like club is disabled.";"Likes was disabled."
+"like_Your message successfully sent.";"Your update has been successfully sent."
+"like_Hide";"Hide Like Settings"
+"like_Show Like";"Edit Like Settings"
+"like_Like Club";"Members like this"
+"like_Profile Likes";"Likes"
+"like_other people";"other people"
+"like_other person";"other person"
+"like_You";"You"
+"like_like it.";"like it."
+"like_and %s other person like it.";"and %s other person like it."
+"like_and %s other people like it.";"and %s other people like it."
+"like_%s people like it";"%s people like it"
+"like_and";"and"
+
+"like_You did not like anything yet.";"You have not liked anything yet."
+"like_Some description";"Below you can find FAQ for Likes plugin features and widgets. Please feel free to contact us at Hire-Experts.com if you have any unanswered questions regarding to Likes plugin."
+"like_Plugin Widgets";"Likes Plugin Widgets"
+"like_first screenshot";"Please open Member Profile page in Layout Editor to put Likes plugin widgets. Please replace <i>`Profile Status`</i> widget with <i>`Profile Like Status`</i>(you can find it under Like section on the right side). Also you can put <i>`Likes`</i> and <i>`Members Like This`</i> widgets on left sidebar as shown in screenshot below:"
+"like_second screenshot";"If you would like to show Suggestion to Like on Member Home page then please open it in Layout Editor then drag `<i>Suggestion to Like</i>` widget into any wished position on page:"
+"like_Like Plugin";"Likes Plugin"
+"like_Member Level";"Member Level"
+"like_Like";"Like"
+"like_Unlike";"Unlike"
+"like_I liked";"I liked"
+"like_Suggest";"Suggest"
+"like_Send";"Send"
+"like_Disable likes. Members can not be able to like this.";"Disable likes. Members can not be able to like this."
+"like_Find us on";"Find us on"
+"like_<span class='bold'>%s</span> of your friends already like this.";"<span class='bold'>%s</span> of your friends already like this."
+"like_Enable Likes";"Enable Likes"
+"like_Disable Likes";"Disable Likes"
+"like_No one like it.";"No one like it."
+
+"like_%s and %s other person like it.";"%s and %s other person like it."
+"like_%s and %s other people like it.";"%s and %s other people like it."
+"like_%s other people like it.";"%s other people like it."
+"like_%s other person like it.";"%s other person like it."
+"like_%s like it.";"%s like it."
+"like_No one like it yet.";"No one like it yet."
+"like_%s person like it.";"%s person likes it.";"%s persons like it."
+
+"like_Members Like This";"Members Like This"
+"like_Displays members who liked this Profile/Page.";"Displays members who liked this Profile/Page."
+"like_Profile Like Status";"Profile Like Status"
+"like_Displays a subject\'s title with like options. Please replace `Profile Status` widget with it on Member Profile page.";"Displays a subject\'s title with like options. Please replace `Profile Status` widget with it on Member Profile page."
+"like_Suggestion to Like";"Suggestion to Like"
+"like_Displays a random Member(Page) to like as suggestion.";"Displays a random Member(Page) to like as suggestion."
+"like_Like Suggest";"Like Suggest"
+"like_Displays things that current member liked on Member Profile page.";"Displays things that current member liked on Member Profile page."
+"like_See All Likes";"See All Likes"
+
+"LIKE_ALLOW_PROFILES";"Allow user profiles to be liked by other members, means allow using like button on profile page."
+"LIKE_ALLOW_EVENTS";"Allow user events to be liked by other members, means allow using like button on event page."
+"LIKE_ALLOW_GROUPS";"Allow user groups to be liked by other members, means allow using like button on group page."
+"LIKE_ALLOW_PAGES";"Allow user pages to be liked by other members, means allow using like button on page profile."
+"LIKE_ALLOW_PRODUCTS";"Allow owner products to be promoted products."
+"LIKE_ALLOW_DONATIONS";"Allow user donations to be liked by other members, means allow using like button on donation profile."
+"LIKE_ALLOW_OFFERS";"Allow user offers to be liked by other members, means allow using like button on offers profile."
+
+"like_Like Profiles";"Like Profiles"
+"like_Like Events";"Like Events"
+"like_Like Groups";"Like Groups"
+"like_Like Pages";"Like Pages"
+"like_Promote Products";"Promote Products"
+"like_Like Donations";"Like Donations"
+"like_Like Offers";"Like Offers"
+
+
+"like_No, do not allow profiles to be liked.";"No, do not allow profiles to be liked."
+"like_Yes, allow profiles to be liked.";"Yes, allow profiles to be liked."
+
+"like_No, do not allow events to be liked.";"No, do not allow events to be liked."
+"like_Yes, allow events to be liked.";"Yes, allow events to be liked."
+
+"like_No, do not allow groups to be liked.";"No, do not allow groups to be liked."
+"like_Yes, allow groups to be liked.";"Yes, allow groups to be liked."
+
+"like_No, do not allow products to be promoted.";"No, do not allow products to be promoted."
+"like_Yes, allow products to be promoted.";"Yes, allow products to be promoted."
+
+"like_No, do not allow pages to be liked.";"No, do not allow pages to be liked."
+"like_Yes, allow pages to be liked.";"Yes, allow pages to be liked."
+
+"like_No, do not allow donations to be liked.";"No, do not allow donations to be liked."
+"like_Yes, allow donations to be liked.";"Yes, allow donations to be liked."
+
+"like_No, do not allow offers to be liked.";"No, do not allow offers to be liked."
+"like_Yes, allow offers to be liked.";"Yes, allow offers to be liked."
+
+"LIKE_INTERESTS_PRIVACY_DESC";"Your members can choose from any of the options checked below when they decide who can see their interests. These options appear on Edit Profile Interests page. If you do not check any options, everyone will be allowed to view interests."
+"like_Count of matches";"Count of matched users shown on `Matches` widget."
+"like_Count of most liked events";"Count of items on `Most Liked Events` widget."
+"like_Count of most liked pages";"Count of items on `Most Liked Pages` widget."
+"like_Count of most liked groups";"Count of items on `Most Liked Groups` widget."
+"like_Count of most liked users";"Count of items on `Most Liked Members` widget."
+
+"like_Edit Interests";"Edit Interests"
+
+"like_Already unliked.";"Already unliked."
+"like_Already liked.";"Already liked."
+
+"LIKE_AUTH_ERROR";"You do not authorized to do this action."
+"like_Your message was not send.";"Failed. Your message was not send. Please try later."
+
+"like_You did not like it. Try later.";"Failed. Please try later."
+"like_You are not logged in.";"You are not logged in."
+"like_Your changes has been saved.";"Your changes have been saved."
+"like_Member Likes";"Member Likes"
+"like_Like Matches";"Like Matches"
+"like_Most Liked Events";"Most Liked Events"
+"like_Most Liked Members";"Most Liked Members"
+"like_Most Liked Pages";"Most Liked Pages"
+"like_Most Liked Groups";"Most Liked Groups"
+"like_Most Liked Products";"Most Liked Products"
+"like_Most Liked Stores";"Most Liked Stores"
+
+"like_Like Logo";"Like Logo"
+"like_Matches";"Matches"
+"like_Users who liked same things that you liked.";"Users who liked same things that you liked."
+"like_Info";"Info"
+"like_INFO_WIDGET_DESCR";"Displays Profile Fields information and `Interests`. Please replace `Profile Fields` widget by this one on Member Profile page."
+
+"like_Most Liked Users Widget";"Most Liked Members"
+"like_Most Liked Users Widget Description";"Displays Most Liked Members of your community."
+
+"like_Most Liked Pages Widget";"Most Liked Pages"
+"like_Most Liked Pages Widget Description";"Displays Most Liked Pages of your community."
+
+"like_Most Liked Events Widget";"Most Liked Events"
+"like_Most Liked Events Widget Description";"Displays Most Liked Events of your community."
+"like_Most Liked Videos";"Most Liked Videos"
+"like_Most Liked Musics";"Most Liked Musics"
+"like_Most Liked Blogs";"Most Liked Blogs"
+"like_Most Liked Albums";"Most Liked Albums"
+"like_Most Liked Documents";"Most Liked Documents"
+"like_Most Liked Listings";"Most Liked Listings"
+"like_Most Liked Photos";"Most Liked Photos"
+"like_Most Liked Jobs";"Most Liked Jobs"
+"like_Most Liked Articles";"Most Liked Articles"
+
+"like_Most Liked Groups Widget";"Most Liked Groups"
+"like_Most Liked Groups Widget Description";"Displays Most Liked Groups of your community."
+
+"like_%s person likes it";"%s person likes it";"%s people like it"
+"and %s of them is your friend.";"and %s of them is your friend.";"and %s of them are your friends."
+"like_%s mutual friend";"%s mutual friend";"%s mutual friends"
+"like_%s friend";"%s friend";"%s friends"
+"like_%s mutual like";"%s mutual like";"%s mutual likes"
+"like_%s like";"%s like";"%s likes"
+
+"like_%s's likes";"%s's likes"
+
+"like_You didn't like anything yet.";"You didn't like anything yet."
+"like_All Likes";"All Likes"
+
+"like_Mutual Likes";"Mutual Likes"
+"like_Users who liked same things as you did.";"Users who liked the same things as you did."
+
+"like_Previous";"Previous"
+"like_Next";"Next"
+
+"like_There are no users.";"There are no users."
+
+"like_My Interests";"My Interests"
+
+"like_What do you like to read?";"What do you like to read?"
+"like_What documents you like to read?";"What documents do you like?"
+"like_What listings you like to read?";"What listings do you like?"
+"like_What pages do you want to visit?";"What pages do you want to visit?"
+"like_What kind of events do you like?";"What kind of events do you like?"
+"like_What groups do you like?";"What groups do you like?"
+"like_What classifieds do you like?";"What classifieds do you like?"
+"like_What albums do you like?";"What albums do you like?"
+"like_What videos do you like?";"What videos do you like?"
+"like_What music do you like?";"What music do you like?"
+"like_What quizzes do you like to experience?";"What quizzes do you like to take?"
+"like_What polls do you like?";"What polls do you like?"
+"like_What products do you like?";"What products do you like?"
+"like_What articles do you like?";"What articles do you like?"
+
+"like_most liked blogs";"Most Liked Blogs"
+"like_most liked albums";"Most Liked Albums"
+"like_most liked documents";"Most Liked Documents"
+"like_most liked listings";"Most Liked Listings"
+"like_most liked pages";"Most Liked Pages"
+"like_most liked events";"Most Liked Events"
+"like_most liked groups";"Most Liked Groups"
+"like_most liked classifieds";"Most Liked Classifieds"
+"like_most liked albums";"Most Liked Albums"
+"like_most liked videos";"Most Liked Videos"
+"like_most liked musics";"Most Liked Musics"
+"like_most liked quizzes";"Most liked Quizzes"
+"like_most liked polls";"Most Liked Polls"
+"like_most liked products";"Most Liked Products"
+"like_most liked articles";"Most Liked Articles"
+
+"like_%s user liked same things as you did.";"%s user liked the same things as you did.";"%s users liked the same things as you did."
+
+"like_Interests";"Interests"
+
+"like_%s user";"%s user";"%s users"
+
+"like_%s item";"%s item";"%s items"
+
+"like_Profile Interests";"Profile Interests"
+
+"LIKE_INTERESTS_DESC";"On this page you can like anything that you interested in. Just start typing on those text fields below and choose what you want.<br />
+At the page bottom you can edit who is allowed to view your Interests, just choose appropriate privacy setting."
+"like_Privacy:";"Privacy:"
+"like_Who is allowed to view your Interests?";"Who is allowed to view your Interests?"
+"like_Are you sure you want to unlike this?";"Are you sure you want to unlike this?"
+"like_Delete Interest";"Delete Interest"
+"like_If you delete it, you will unlike this item. Are you sure you want to delete it?";"If you delete it, you will unlike this item. Are you sure you want to delete it?"
+
+"like_You like it.";"You like it."
+"like_You and %s other person like it.";"You and %s other person like it."
+"like_You and %s other people like it.";"You and %s other people like it."
+"like_%s other people like it.";"%s other people like it."
+"like_%s other person like it.";"%s other person like it."
+"like_No one like it.";"No one like it."
+"like_people";"people"
+"like_like it";"like it"
+
+"You and %s people like it.";"You and %s people like it."
+"You and %s person like it.";"You and %s person like it."
+"You like it.";"You like it."
+"No one like it.";"No one like it."
+"Register";"Register"
+
+"_ACTIVITY_ACTIONTYPE_LIKE_ITEM";"Likes"
+"_ACTIVITY_ACTIONTYPE_LIKE_ITEM_PRIVATE";"When I like something"
+"ACTIVITY_TYPE_LIKE_SEND_UPDATE";"When member send an update to his/her likes"
+"ACTIVITY_TYPE_LIKE_SUGGEST";"When member suggest to friends something"
+"LIKE_ALLOW_INTERESTS";"Allow members to view others Interests(Info tab on Member Profile page) or don't allow so Interests will be shown only for owner."
+"like_Yes, allow viewing interests.";"Yes, allow viewing interests."
+"like_No, do not allow viewing interests.";"No, do not allow viewing interests"
+
+"like_I like %s.";"I like %s."
+"like_%s likes %s.";"%s likes %s."
+"ADMIN_ACTIVITY_TYPE_LIKE_ITEM";"When someone likes event, page, member or group"
+"ADMIN_ACTIVITY_TYPE_LIKE_ITEM_PRIVATE";"When someone likes something, this action will be shown on user profile update feed"
+"LIKE_Overall";"Overall"
+"LIKE_This Month";"This Month"
+"LIKE_This Week";"This Week"
+"like_Period Enable";"Enable"
+"like_Period Description";"Show likes by periods(week, month and all time)"
+"There are no content.";"There are no content."
+"LIKE_PERMISSION_TO_USE_LIKE";"You don't have permissions to use Like options.<br>Please contact Administrator to resolve this problem."
+"like_No one has liked this page";"No one has liked this page"
+"HE - Like";"HE - Like"
+"LIKE_PromoteProduct";"Promote Product"
+
+# notification types
+"{item:$subject} suggest you to check this out {item:$object}.";"{item:$subject} suggest you to check this out {item:$object}."
+"{item:$subject} send you to an update about {item:$object}.";"{item:$subject} send you to an update about {item:$object}."

@@ -1,0 +1,678 @@
+2014-02-16T04:09:47+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/languages/en/album.csv (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 546a72
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/languages/en/album.c...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-02-16T04:09:47+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Album/Api/Core.php (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 3139b8
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Album/Api/Co...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-02-16T04:09:47+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Album/Api (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 10da32
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Album/Api')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-02-16T04:09:47+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Album (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 938bfc
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Album')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-02-16T04:09:47+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/packages/module-album-4.7.0.json (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 9b81cf
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-albu...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-02-16T04:10:18+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/languages/en/group.csv (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: c09830
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/languages/en/group.c...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-02-16T04:10:18+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Group/Api/Core.php (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: e11fbc
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Group/Api/Co...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-02-16T04:10:18+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Group/Api (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 98b334
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Group/Api')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-02-16T04:10:18+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Group (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: d90d2f
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Group')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-02-16T04:10:18+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/packages/module-group-4.7.0.json (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 08acea
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-grou...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-03T22:02:11+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/languages/en/pinfeed.csv (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 7e9023
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/languages/en/pinfeed...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-03T22:02:11+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Pinfeed/Api/Core.php (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 5ef945
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Pinfeed/Api/...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-03T22:02:11+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Pinfeed/Api (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: c348e9
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Pinfeed/Api')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-03T22:02:11+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Pinfeed (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: ce042f
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Pinfeed')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-03T22:02:11+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/packages/module-pinfeed-4.5.0.json (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: a258cf
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-pinf...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/languages/en/welcome.csv (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: dd56fe
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/languages/en/welcome...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Welcome/Api/Core.php (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 67c6ed
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Welcome/Api/...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Welcome/Api (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 260ab0
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Welcome/Api')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Welcome (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 2cf13e
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Welcome')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/packages/module-welcome-4.2.0p3.json (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 63b084
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-welc...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/languages/en/like.csv (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 75990e
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/languages/en/like.cs...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Like/Api/Core.php (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 72cd72
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Like/Api/Cor...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Like/Api (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 1891d3
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Like/Api')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Like (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 63d22a
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Like')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/packages/module-like-4.2.2p4.json (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: e9e32e
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-like...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/languages/en/hequestion.csv (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: ba284a
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/languages/en/hequest...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Hequestion/Api/Core.php (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: eae0eb
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Hequestion/A...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Hequestion/Api (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: f1e083
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Hequestion/A...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Hequestion (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 766919
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Hequestion')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/packages/module-hequestion-4.2.5.json (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: cb4782
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-hequ...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/languages/en/heloginpopup.csv (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: dc5d25
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/languages/en/helogin...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Heloginpopup/Api/Core.php (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 534458
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Heloginpopup...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Heloginpopup/Api (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: d75f93
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Heloginpopup...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Heloginpopup (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: b7df44
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Heloginpopup')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/packages/module-heloginpopup-4.5.0p2.json (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 77f6e5
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-helo...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/languages/en/hashtag.csv (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 212e5d
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/languages/en/hashtag...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Hashtag/Api/Core.php (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: d98f6d
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Hashtag/Api/...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Hashtag/Api (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 9ed0dd
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Hashtag/Api')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Hashtag (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 63a621
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Hashtag')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-08T20:48:51+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/packages/module-hashtag-4.5.1p3.json (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 107ea3
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-hash...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-10T12:20:55+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/languages/en/advancedsearch.csv (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: f1e2d7
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/languages/en/advance...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-10T12:20:55+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Advancedsearch/Api/Core.php (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 87f7f6
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Advancedsear...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-10T12:20:55+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Advancedsearch/Api (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 73129f
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Advancedsear...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-10T12:20:55+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/modules/Advancedsearch (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: 9e4aaa
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/modules/Advancedsear...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-03-10T12:20:55+00:00 WARN (4): [2] stat(): stat failed for /var/www/wealthment/application/packages/module-advancedsearch-4.5.1p6.json (/var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php) [77]
+Error Code: b9560a
+Stack trace:
+#0 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/System.php(77): stat('/var/www/wealthment/application/...')
+#1 /var/www/wealthment/application/libraries/Engine/Vfs/Adapter/Abstract.php(224): Engine_Vfs_Adapter_System->stat('/var/www/wealthment/application/...')
+#2 /var/www/wealthment/install/controllers/ManageController.php(752): Engine_Vfs_Adapter_Abstract->info('application/packages/module-adva...')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): ManageController->permsAction()
+#4 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('permsAction')
+#5 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#6 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#7 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#8 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#9 {main}
+
+2014-04-10T17:42:59+00:00 WARN (4): [2] include(/var/www/wealthment/application/languages/en/manifest.php): failed to open stream: No such file or directory (/var/www/wealthment/install/controllers/SdkController.php) [271]
+Error Code: 86f45d
+Stack trace:
+#0 /var/www/wealthment/install/controllers/SdkController.php(271): SdkController::buildAction()
+#1 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): SdkController->buildAction()
+#2 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('buildAction')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#4 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#5 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#7 {main}
+
+2014-04-10T17:42:59+00:00 WARN (4): [2] include(): Failed opening '/var/www/wealthment/application/languages/en/manifest.php' for inclusion (include_path='/var/www/wealthment/application/libraries:/var/www/wealthment/application/libraries/PEAR:.') (/var/www/wealthment/install/controllers/SdkController.php) [271]
+Error Code: e02179
+Stack trace:
+#0 /var/www/wealthment/install/controllers/SdkController.php(271): SdkController::buildAction()
+#1 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): SdkController->buildAction()
+#2 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('buildAction')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#4 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#5 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#7 {main}
+
+2014-04-10T17:43:08+00:00 WARN (4): [2] include(/var/www/wealthment/application/languages/en/manifest.php): failed to open stream: No such file or directory (/var/www/wealthment/install/controllers/SdkController.php) [271]
+Error Code: c238c2
+Stack trace:
+#0 /var/www/wealthment/install/controllers/SdkController.php(271): SdkController::buildAction()
+#1 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): SdkController->buildAction()
+#2 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('buildAction')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#4 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#5 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#7 {main}
+
+2014-04-10T17:43:08+00:00 WARN (4): [2] include(): Failed opening '/var/www/wealthment/application/languages/en/manifest.php' for inclusion (include_path='/var/www/wealthment/application/libraries:/var/www/wealthment/application/libraries/PEAR:.') (/var/www/wealthment/install/controllers/SdkController.php) [271]
+Error Code: a4f16c
+Stack trace:
+#0 /var/www/wealthment/install/controllers/SdkController.php(271): SdkController::buildAction()
+#1 /var/www/wealthment/application/libraries/Zend/Controller/Action.php(513): SdkController->buildAction()
+#2 /var/www/wealthment/application/libraries/Zend/Controller/Dispatcher/Standard.php(289): Zend_Controller_Action->dispatch('buildAction')
+#3 /var/www/wealthment/application/libraries/Zend/Controller/Front.php(946): Zend_Controller_Dispatcher_Standard->dispatch(Zend_Controller_Request_Http, Zend_Controller_Response_Http)
+#4 /var/www/wealthment/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(77): Zend_Controller_Front->dispatch()
+#5 /var/www/wealthment/application/libraries/Zend/Application.php(358): Zend_Application_Bootstrap_Bootstrap->run()
+#6 /var/www/wealthment/install/index.php(87): Zend_Application->run()
+#7 {main}
+

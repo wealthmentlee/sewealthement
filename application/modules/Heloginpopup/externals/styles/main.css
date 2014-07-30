@@ -1,0 +1,155 @@
+.heloginpopup_login_form .form-label
+{
+  display: none !important;
+}
+
+.heloginpopup_login_form .form-wrapper
+{
+  text-align: center !important;
+  margin-bottom: 0px !important;
+}
+
+.heloginpopup_login_form h3 {
+  text-align: center !important;
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+.heloginpopup_login_form .form-element {
+  display: inline-block;
+  float: none !important;
+  margin-bottom: 0 !important;
+}
+
+.heloginpopup_login_form .form-elements
+{
+  text-align: center;
+}
+.heloginpopup_login_form .form-elements > *
+{
+  display: inline-block;
+  margin: 0 50px 15px;
+  vertical-align: top;
+}
+
+.heloginpopup_login_form .form-elements > input[name="captcha"]
+{
+  display: none !important;
+}
+.heloginpopup_login_form .form-elements > input
+{
+  font-size: 14px;
+}
+
+.heloginpopup_login_form .form-elements > .divider
+{
+  display: block;
+  border-top: 1px solid $theme_border_dark_color;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.heloginpopup_login_form
+{
+  max-height: 570px;
+  overflow-y: auto;
+  max-width: 700px;
+}
+
+.heloginpopup_login_form .form-elements > img
+{
+  margin-bottom: 0 !important;
+}
+
+
+
+.heloginpopup_hide
+{
+  display: none;
+}
+
+.heloginpopup_modal.heloginpopup_fade.heloginpopup_in {
+  top: 10%;
+}
+.heloginpopup_modal.heloginpopup_fade {
+  top: -25%;
+  transition: opacity 0.3s linear 0s, top 0.3s ease-out 0s;
+}
+.heloginpopup_fade.heloginpopup_in {
+  opacity: 1;
+}
+
+.heloginpopup_modal {
+  background-clip: padding-box;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  left: 50%;
+  margin-left: -280px;
+  outline: medium none;
+  position: fixed;
+  top: 10%;
+  width: 560px;
+  z-index: 1050;
+}
+.heloginpopup_fade {
+  opacity: 0;
+  transition: opacity 0.15s linear 0s;
+}
+
+.heloginpopup_modal_backdrop.heloginpopup_fade.heloginpopup_in {
+  opacity: 0.8;
+}
+.heloginpopup_modal_backdrop{
+  filter: alpha(opacity=80);
+}
+.heloginpopup_modal_backdrop.heloginpopup_fade {
+  opacity: 0;
+}
+
+.heloginpopup_modal_backdrop {
+  background-color: #000000;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1040;
+}
+
+.heloginpopup_socialbutton {
+  background-repeat: no-repeat;
+  color: #FCFCFC !important;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  height: 32px;
+  line-height: 30px;
+  margin: 0 10px 20px !important;
+  padding-left: 8px;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  width: 182px;
+}
+
+.twitter-connect {
+  background-image: url(~/application/modules/Heloginpopup/externals/images/connect-twitter.png);
+}
+
+.facebook-connect {
+  background-image: url(~/application/modules/Heloginpopup/externals/images/connect-facebook.png);
+}
+
+#connect_with,
+#or_login {
+  margin: 0 0 10px !important;
+  text-align: center;
+  width: 100%;
+}
+
+#dont_have_account {
+  width: 100%;
+  margin: 0 !important;
+  text-align: right;
+}

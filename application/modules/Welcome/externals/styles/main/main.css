@@ -1,0 +1,138 @@
+/* $Id: main.css 2010-08-02 16:02 idris $ */
+
+.he_list * .header{
+	font-weight: bold;
+	border-bottom: 1px solid grey;
+	background-color: #E9F4FA;
+	padding: 5px; 
+}
+.he_list * .item{
+	border-bottom: 1px solid #eee;
+	padding: 5px;
+}
+.welcome_description{
+	background: transparent url(../../images/transparent_bg2.png) scroll left bottom;
+	color: white;
+	left: 5px;
+	padding: 10px;
+	position: absolute;
+	top: 5px;
+}
+.he_list .item > div{
+	position: relative;
+}
+.faq_desc{
+	padding: 10px;
+}
+
+.faq_question{
+	background-color: #E9F4FA;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.faq_answer{
+	padding: 10px;
+}
+
+.faq_answer li{
+	list-style-type: circle;
+	margin-left: 10px;
+}
+
+
+.clr {
+    clear: both;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/*
+    NEW for admin-slideshow
+*/
+
+.slideshow_admin{
+    clear: both;
+    border-bottom: 1px solid #eee;
+    padding: 25px 2px;
+  }
+  .l{
+    float: left;
+    width: 300px;
+  }
+  .slide_title{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 2px;
+  }
+  .slide_desc{
+    color: #999;
+  }
+  .slide_options{
+    cursor: pointer;
+    padding-top: 6px;
+    float: left;
+    width: 80px;
+  }
+  .gallery{
+    margin: 10px 0;
+  }
+  .gallery_item{
+    position: relative;
+    float: left;
+    margin: 2px 2px 0 0;
+  }
+  .gallery_item > img{
+    width: 150px;
+  }
+  .goptions{
+    position: absolute;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    border-bottom-left-radius: 4px;
+    left: 101px;
+    top: 0;
+    background: #eee;
+    padding: 4px 6px;
+    opacity: 0.8;
+  }
+  .goptions:hover{
+    opacity: 1;
+  }
+  .goptions > img{
+    cursor: pointer;
+  }
+
+.slideshow_admin a:link,a:hover,a:visited{
+    text-decoration: none;
+}
+
+.button
+{
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    background-color: #619dbe;
+    border: 1px solid #50809b;
+    background-image: url(~/application/modules/Core/externals/images/buttonbg.png);
+    background-repeat: repeat-x;
+    background-position: 0px 1px;
+
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+
+}
+
+.button:hover {
+    background-color: #7eb6d5;
+}
+
+.button a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}

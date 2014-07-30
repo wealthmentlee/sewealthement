@@ -1,0 +1,30 @@
+a:1:{s:2:"en";a:6:{s:21:"_EMAIL_INVITE_SUBJECT";s:55:"You have received an invitation to join Wealthment.com!";s:18:"_EMAIL_INVITE_BODY";s:257:"[header]
+
+You have been invited by [sender_title] to join our social network. To join, please follow the link below:
+
+http://[host][object_link]
+
+----------------------------------------
+[message]
+----------------------------------------
+
+[footer]";s:27:"_EMAIL_CORE_WELCOME_SUBJECT";s:26:"Welcome to Wealthment.com!";s:24:"_EMAIL_CORE_WELCOME_BODY";s:181:"[header]
+
+Thank you for joining our social network. Click the following link and enter your information below to login:
+
+http://[host][object_link]
+
+Email: [email]
+
+[footer]";s:27:"_EMAIL_CORE_CONTACT_SUBJECT";s:55:"A member has sent you a message using the contact page.";s:24:"_EMAIL_CORE_CONTACT_BODY";s:201:"[header]
+
+[sender_title] has sent you a message using the contact page:
+
+Email : [sender_email]
+Type Option : [option_type]
+Category : [category]
+
+Message: 
+[message][error_report]
+
+[footer]";}}

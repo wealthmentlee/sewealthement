@@ -1,0 +1,46 @@
+/* $Id: carousel.css 2010-08-02 16:02 idris $ */
+
+#slider_container{
+	position: relative;
+	overflow: hidden;
+}
+.slider ul > li > a{
+    text-decoration: none;
+}
+
+.slider ul, .slider li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	position: relative;
+	overflow: hidden !important;
+	display: block;
+}
+#prevBtn a, #nextBtn a{
+	padding: 5px; 
+}	
+#nextBtn{ 
+	float: right;
+}
+.slide_desc{
+	position: absolute;
+	bottom: 0px;
+	background-image: url(../../images/transparent_bg2.png);
+	width: 100%;
+	color: #EFF7FF;
+	padding: 10px 6px 10px 12px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.slider li span{
+	display: block;
+	font-size: 36px;
+	color: #EFF7FF;
+	padding: 3px 6px 3px 12px;
+	background-image: url(../../images/transparent_bg2.png);
+	font-family: 'GothicCustom',Impact,'Arial Narrow',sans-serif;
+	text-shadow: 1px 1px #777;
+	width: 100%;
+    position: absolute;
+    top: 0px;
+}

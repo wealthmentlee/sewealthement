@@ -1,0 +1,733 @@
+/* $Id: main.css 17.08.12 06:04 michael $ */
+
+
+.wall-compose-hequestion-activator,
+.wall-compose-hequestion-menu span {
+  background-image: url("~/application/modules/Hequestion/externals/images/question.png");
+}
+.wall-compose-hequestion-activator:hover,
+.wall-compose-hequestion-activator.is_active{
+  background-image: url("~/application/modules/Hequestion/externals/images/question_active.png");
+}
+
+
+
+
+
+.hqTextDisactive {
+  color: $theme_font_color_light !important;
+}
+.hqOption {
+  background-repeat: no-repeat;
+  display: block;
+  font-size: 10pt;
+  height: 21px;
+  line-height: 21px;
+  width: 99%;
+}
+html[dir=rtl] .hqOption {
+  background-position: right 4px;
+}
+.hqOptions > .hqOption + .hqOption {
+  border-top: $theme_border_color 1px solid;
+}
+.hqOption input {
+  background-color: transparent !important;
+  background-image: url("~/application/modules/Hequestion/externals/images/plus.png");
+  background-position: left 0 !important;
+  background-repeat: no-repeat;
+  border: medium none !important;
+  font-size: 9pt;
+  margin: 0 0 0 9px !important;
+  outline: medium none !important;
+  padding: 0 0 0 19px !important;
+  width: 99%;
+}
+html[dir=rtl] .hqOption input {
+  margin-left: 0 !important;
+  margin-right: 22px !important;
+  background-position: right 0 !important;
+  padding: 0 19px 0 0 !important;
+}
+
+.hqQuestions {
+  overflow: hidden;
+}
+.hqQuestions > li {
+  overflow: hidden;
+}
+.hqUserChoose {
+  float: left;
+  margin: 2px 2px 0;
+}
+
+html[dir=rtl] .hqUserChoose {
+  float: right;
+}
+
+.hqContent {
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid $theme_border_medium_color;
+  border-bottom-color: $theme_border_medium_color;
+  border-top-color: $theme_border_dark_color;
+  float: left;
+  height: 23px;
+  overflow: hidden;
+  width: 240px;
+  position: relative;
+}
+.hqContent:hover {
+  border: 1px solid $theme_link_color;
+}
+
+html[dir=rtl] .hqContent {
+  float: right;
+}
+
+.hqContentMore {
+  background: none repeat scroll 0 0 transparent;
+  border: 1px dashed $theme_border_medium_color;
+  float: left;
+  font-size: 8pt;
+  height: 20px;
+  line-height: 20px;
+  margin: 5px 2px 2px;
+  overflow: hidden;
+  text-align: center;
+  width: 240px;
+}
+
+html[dir=rtl] .hqContentMore {
+  float: right;
+}
+
+.hqContentMore:hover {
+  border: 1px dashed $theme_link_color;
+  background-color: $theme_foreground_background_color;
+}
+
+.hqContentTitle {
+  color:$theme_link_color;
+  font-size: 9pt;
+  font-weight: bold;
+  left: 0;
+  line-height: 23px;
+  padding: 0 7px;
+  position: absolute;
+  top: 0;
+  z-index: 12;
+}
+
+html[dir=rtl] .hqContentTitle {
+  right: 0;
+  left:inherit;
+}
+
+.hqContentVotes {
+  color: $theme_font_color_light;
+
+  background: none repeat scroll 0 0 $theme_list_background_color;
+  display: none;
+  font-size: 9pt;
+  font-weight: bold;
+  line-height: 23px;
+  overflow: hidden;
+  padding: 0 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 12;
+
+}
+
+html[dir=rtl] .hqContentVotes {
+  right: inherit;
+  left:0;
+}
+
+.hqContent:hover .hqContentVotes {
+  display: block;
+}
+.hqselected {
+  margin: 6px 2px 0 0 !important;
+  float: left;
+}
+.hqchecked {
+  float: left;
+  margin: 6px 0 0 !important;
+}
+.hqOptionActive .hqContent {
+  border: 1px solid $theme_link_color_hover;
+}
+
+
+.activity_icon_hequestion_ask,
+.activity_icon_hequestion_answer,
+.activity_icon_comment_hequestion {
+  background-image: url("~/application/modules/Hequestion/externals/images/question_icon.png");
+}
+.notification_type_hequestion_ask,
+.notification_type_hequestion_answer,
+.notification_type_hequestion_follow {
+  background-image: url("~/application/modules/Hequestion/externals/images/question_icon.png");
+}
+
+
+.hqQuestion {
+  margin: 0 0 10px;
+  overflow: hidden;
+}
+
+.hqVoteUsers {
+  float: left;
+  margin: 0 3px;
+}
+html[dir=rtl] .hqVoteUsers {
+  float: right;
+}
+.hqVoteUsers ul {
+  overflow: hidden;
+}
+.hqVoteUsers ul > li {
+  float: left;
+  margin:0 1px;
+}
+.hqVoteUsers ul > li img {
+  width: 22px;
+  height: 22px;
+}
+
+
+a.wall-button {
+  background-color: $theme_body_background_color;
+  border: 1px solid $theme_border_medium_color;
+  display: block;
+  height: 25px;
+  line-height: 23px;
+  padding: 0 10px;
+  background-image: url("~/application/modules/Wall/externals/images/button.png");
+  color:$theme_font_color !important;
+  +rounded(3px);
+  text-decoration: none;
+}
+a.wall-button:hover {
+  +rounded(3px);
+  text-decoration: none;
+  background-color: $theme_border_color;
+}
+
+
+.hqAddAnswer {
+  height: 23px;
+  margin-left: 1px;
+  margin-top: 4px;
+  overflow: hidden;
+  position: relative;
+  width: 240px;
+
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid $theme_border_medium_color;
+  border-bottom-color: $theme_border_medium_color;
+  border-top-color: $theme_border_dark_color;
+
+}
+
+.hqAddAnswer:hover {
+  border: 1px solid $theme_link_color;
+}
+
+.hqAddAnswer input {
+  background: none repeat scroll 0 0 transparent !important;
+  border: medium none !important;
+  float: left;
+  font-size: 8pt;
+  height: 24px;
+  line-height: 20px;
+  outline: medium none !important;
+  padding: 0 5px !important;
+  width: 185px !important;
+}
+html[dir=rtl] .hqAddAnswer input {
+  float: right;
+}
+.hqAddAsnwerSubmit {
+  display: block;
+  float: right;
+  font-size: 8pt !important;
+  height: 23px !important;
+  line-height: 23px !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+html[dir=rtl] .hqAddAsnwerSubmit {
+  float: left;
+  right: inherit;
+  left: 0;
+}
+.hqUserChooseControl {
+  width: 20px;
+  overflow: hidden;
+  float: left;
+}
+html[dir=rtl] .hqUserChooseControl {
+  float: right;
+}
+
+
+.hqQuestionFollow {
+
+}
+.hqQuestionFollow .hqQuestionAddFollow {
+  display: block;
+}
+.hqQuestionFollow .hqQuestionRemoveFollow {
+  display: none;
+}
+
+.hqQuestionFollow.hqQuestionIsFollower .hqQuestionAddFollow {
+  display: none;
+}
+.hqQuestionFollow.hqQuestionIsFollower .hqQuestionRemoveFollow {
+  display: block;
+}
+
+
+
+
+.hqAsked {
+  overflow: hidden;
+}
+.hqAskedLeft {
+  float: left;
+  overflow: hidden;
+}
+html[dir=rtl] .hqAskedLeft {
+  float: right;
+}
+
+.hqAsked .item_photo {
+  float: left;
+}
+html[dir=rtl] .hqAsked .item_photo {
+  float: right;
+}
+
+.hqAsked .item_body {
+  float: left;
+  margin-left: 10px;
+}
+html[dir=rtl] .hqAsked .item_body {
+  float: right;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.hqAsked .item_title {
+  font-weight: bold;
+}
+.hqAsked .item_description {
+
+}
+.hqLineOptions {
+  overflow: hidden;
+}
+.hqLineOptions > li {
+  float: left;
+  margin:0 2px;
+  font-size: 9pt;
+}
+html[dir=rtl] .hqLineOptions > li {
+  float: right;
+}
+.hqLineOptions > li:first-child > span:first-child {
+  display: none;
+}
+
+
+.hqAskedRight {
+  float: right;
+  margin: 5px;
+}
+html[dir=rtl] .hqAskedRight {
+  float: left;
+}
+
+
+.hqQuestionOptions {
+  margin-top: 10px;
+}
+.hqQuestionOptions ul {
+  overflow: hidden;
+}
+.hqQuestionOptions ul > li {
+  float: left;
+  font-size: 9pt;
+  line-height: 26px;
+  padding-right: 4px;
+}
+
+.hqEditQuestionOptions {
+  float: left;
+  margin: 4px 2px 0 0;
+}
+html[dir=rtl] .hqEditQuestionOptions {
+  float: right;
+}
+
+.hqEditQuestionDelete {
+  background-image: url("~/application/modules/Hequestion/externals/images/delete.png");
+  display: block;
+  height: 16px;
+  margin-top: 2px;
+  text-decoration: none;
+  width: 16px;
+}
+.hqEditQuestionDelete:hover {
+  text-decoration: none;
+}
+
+.hqEditDone {
+  display: block;
+  float: right;
+}
+html[dir=rtl] .hqEditDone {
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hequestion_pagination {
+  overflow: hidden;
+  margin: 5px;
+}
+.hequestion_pagination .paginationControl {
+  float: left;
+}
+html[dir=rtl] .hequestion_pagination .paginationControl {
+  float: right;
+}
+.hequestion_pagination .hequestion_pagination_loader {
+  display: none;
+  float: left;
+  margin-left: 10px;
+  background: transparent url("~/application/modules/Hequestion/externals/images/loader16.gif") center center no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-top: 5px;
+}
+html[dir=rtl] .hequestion_pagination .hequestion_pagination_loader {
+  float: right;
+  margin-left:0;
+  margin-right: 10px;
+}
+.hequestion_pagination .hequestion_pagination_loader.active {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul.hequestions_browse
+{
+  clear: both;
+  margin: 10px 0;
+}
+ul.hequestions_browse span h3
+{
+  margin: 0;
+}
+ul.hequestions_browse > li
+{
+  clear: both;
+  padding: 0px 0px 15px 0px;
+}
+ul.hequestions_browse > li + li
+{
+  border-top-width: 1px;
+  padding-top: 15px;
+}
+ul.hequestions_browse > li .hequestions_browse_photo
+{
+  float: left;
+  overflow: hidden;
+  margin-right: 8px;
+}
+html[dir="rtl"] ul.hequestions_browse > li .hequestions_browse_photo
+{
+  float: right;
+  margin-right: 0px;
+  margin-left: 8px;
+}
+ul.hequestions_browse > li .hequestions_browse_options
+{
+  float: right;
+  overflow: hidden;
+  padding-left: 20px;
+}
+html[dir="rtl"] ul.hequestions_browse > li .hequestions_browse_options
+{
+  float: left;
+  padding-left: 0px;
+  padding-right: 20px;
+}
+ul.hequestions_browse > li .hequestions_browse_options > a
+{
+  clear: both;
+  display: block;
+  margin: 5px;
+  font-size: .8em;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+ul.hequestions_browse > li .hequestions_browse_info
+{
+  overflow: hidden;
+}
+ul.hequestions_browse > li .hequestions_browse_info_title
+{
+  font-weight: bold;
+}
+ul.hequestions_browse > li .hequestions_browse_info_date
+{
+  font-size: .8em;
+  color: $theme_font_color_light;
+}
+ul.hequestions_browse > li .hequestions_browse_info_blurb
+{
+  margin-top: 5px;
+}
+
+
+.hequestions_browse .item_date {
+  color: $theme_font_color_light;
+  font-size: 8pt;
+  margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hqBrowseQuestions {
+  overflow: hidden;
+  margin: 5px;
+}
+.hqBrowseQuestions > li {
+  padding: 10px 0;
+  overflow: hidden;
+}
+.hqBrowseQuestions > li + li {
+  border-top: $theme_border_color 1px solid;
+}
+.hqBrowseQuestions > li .item_photo {
+  float: left;
+  margin-right: 5px;
+}
+html[dir=rtl] .hqBrowseQuestions > li .item_photo {
+  float: right;
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+
+.hqBrowseQuestions > li .item_body {
+  float: none;
+  margin-left: 5px;
+  overflow: hidden;
+}
+.hqBrowseQuestions > li .item_options {
+  float: right;
+}
+html[dir=rtl] .hqBrowseQuestions > li .item_options {
+  float: left;
+}
+.hqBrowseQuestions .item_date {
+  font-size: 8pt;
+  margin: 3px 0;
+  color: $theme_font_color_light;
+}
+.hqBrowseQuestions .item_title {
+  font-size: 10pt;
+  font-weight: bold;
+}
+.hqBrowseQuestions .item_description {
+  font-size: 9pt;
+}
+.hqBrowseQuestions .item_description a {
+  font-weight: bold;
+}
+
+
+
+.hqOptions {
+  margin: 5px 0px;
+}
+.hqAllowAddOptions {
+  background-color: $theme_border_color;
+  padding: 7px 8px;
+  overflow: hidden;
+}
+.hequestion-compose-tray {
+  padding:0 !important;
+}
+.hqAllowAddOptions label {
+  font-size: 8pt;
+  line-height: 17px;
+  float: left;
+}
+html[dir=rtl] .hqAllowAddOptions label {
+  float: right;
+}
+
+
+
+.hqContentCountLine {
+  background-color: $theme_link_color_hover;
+  display: block;
+  height: 23px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
+  filter: alpha(opacity=15);
+  -moz-opacity: 0.15;
+  -khtml-opacity: 0.15;
+  opacity: 0.15;
+
+
+}
+
+html[dir=rtl] .hqContentCountLine {
+  left: inherit;
+  right: 0;
+}
+
+
+.hqLinkVoters {
+
+  background-color: $theme_list_background_color_hover;
+  display: block;
+  height: 23px;
+  margin-left: 4px;
+  text-align: center;
+  width: 23px;
+  text-decoration: none;
+
+
+}
+
+.hqLinkVoters:hover {
+  text-decoration: none;
+}
+
+.hequestion_link_remove {
+  background-image: url("~/application/modules/Hequestion/externals/images/remove.png");
+}
+
+.layout_page_hequestion_index_box {
+  padding: 25px 30px;
+  min-width: 600px;
+  min-height: 400px;
+}
+
+
+.hqAskedAskFriends .wall_icon {
+  background-image: url("~/application/modules/Hequestion/externals/images/question_icon.png")
+}
+
+.heQuestionTitle {
+  font-size: 19pt;
+}
+
+.heQuestionContent {
+  margin: 10px 0;
+}
+.layout_hequestion_asked {
+  margin: 10px 0;
+  padding:10px 0;
+}
+
+.hqAsked .item_date
+{
+  margin: 2px 0;
+  color: $theme_font_color_light;
+  font-size: 9pt;
+}
+.hqEditOptionsBox {
+  overflow: hidden;
+}
+.hqEditOptionsBox > .hqQuestions {
+  overflow: hidden;
+  float: left;
+}
+.hqAddAnswerC {
+  float: left;
+}
+
+.hqQuestion .hqLineOptions {
+ display: none;
+}
+.feed .hqQuestion .hqLineOptions {
+  display: block;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.feed .hqQuestion .hqLineOptions a {
+  font-size: 8pt;
+  overflow: hidden;
+}
+.feed .hqQuestion .hqLineOptions li {
+  overflow: hidden;
+  font-size: 8pt;
+  margin:0;
+}
+.feed .hqQuestion .hqLineOptions li span {
+  float: left;
+  margin: 0 2px;
+}
+html[dir=rtl] .feed .hqQuestion .hqLineOptions li span {
+  float: right;
+}
+
+.wallFormQuestionComposer {
+  z-index: 15;
+}
+.wallComposer {
+  z-index: 15;
+}
+
+.hqLinkAnswer {
+  font-weight: bold;
+}
