@@ -1,8 +1,8 @@
 class mysql {
   package { "mysql-server":
-    ensure => present,
+    ensure => present
   }
-  service { "mysql":
+  service { "mysqld":
     ensure => running,
     enable => true,
     hasstatus => true,
@@ -10,7 +10,7 @@ class mysql {
   }
   file { "/etc/mysql/my.cnf":
     ensure => present,
-    content => template("mysql/my.cnf.erb"),
+    content => template("/tmp/sewealthement/puppet/etc/modules/mysql/my.cnf.erb"),
     notify => Service["mysql"],
     require => Package["mysql-server"],
   }
