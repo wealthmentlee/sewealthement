@@ -4,10 +4,6 @@ class { 'mysql::bindings':
     php_enable => true,
   }
 
-  package { "mysql-server":
-    ensure => present
-  }
-
   service { "mysqld":
     ensure => running,
     enable => true,
