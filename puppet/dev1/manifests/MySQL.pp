@@ -4,13 +4,6 @@ class { 'mysql::bindings':
     php_enable => true,
   }
 
-  service { "mysqld":
-    ensure => running,
-    enable => true,
-    hasstatus => true,
-    require => Package["mysql-server"],
-  }
-
   exec { "set mysql root password":
     path => "/usr/bin",
     unless => "mysql -uroot -p$ecretpa$$",
