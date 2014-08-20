@@ -4,11 +4,10 @@ class { 'mysql::bindings':
     php_enable => true,
   }
 
-  exec { "set mysql root password":
+  exec { "set-mysql-password":
+    unless => "mysqladmin uroot -psecretpwd status",
     path => "/usr/bin",
-    unless => "mysql -uroot -p$ecretpa$$",
-    command => "mysqladmin -u root password $ecretpa$$",
-    require => Service['mysql'],
+    command => "mysqladmin -uroot password secretpwd",
   }
 
 
