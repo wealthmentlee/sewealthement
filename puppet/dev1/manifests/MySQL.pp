@@ -1,3 +1,5 @@
+include mysql::server
+
 class mysql {
   package { "mysql-server":
     ensure => present
@@ -6,12 +8,6 @@ class mysql {
     ensure => running,
     enable => true,
     hasstatus => true,
-    require => Package["mysql-server"], 
-  }
-  file { "/etc/mysql/my.cnf":
-    ensure => present,
-    content => template("/tmp/sewealthement/puppet/etc/modules/mysql/my.cnf.erb"),
-    notify => Service["mysql"],
     require => Package["mysql-server"],
   }
   exec { "set mysql root password":
