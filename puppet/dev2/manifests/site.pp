@@ -12,4 +12,6 @@ include apache::mod::php
 
 apache::vhost { 'localhost':
     port => "80",
-    docroot => "/vagrant"
+    docroot => "/vagrant" 
+
+/* This is a test comment*/
