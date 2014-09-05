@@ -1,6 +1,5 @@
 # install apache2 package
 package { 'apache2':
-  require => Exec['apt-update'],        # require 'apt-update' before installing
   ensure => installed,
 }
 
@@ -11,7 +10,6 @@ service { 'apache2':
 
 # install php5 package
 package { 'php5':
-  require => Exec['apt-update'],        # require 'apt-update' before installing
   ensure => installed,
 }
 
