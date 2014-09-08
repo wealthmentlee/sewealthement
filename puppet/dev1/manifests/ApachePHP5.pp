@@ -1,5 +1,6 @@
 # install apache2 package
 package { 'apache2':
+  mpm_module => 'prefork',
   ensure => installed,
 }
 
@@ -10,6 +11,16 @@ service { 'apache2':
 
 # install php5 package
 package { 'php5':
+  ensure => installed,
+}
+
+# install php5 mysql package
+package { 'php5-mysql':
+  ensure => installed,
+}
+
+# install php5 curl package
+package { 'php5-curl':
   ensure => installed,
 }
 
