@@ -1,6 +1,5 @@
 # install apache2 package
 package { 'apache2':
-  mpm_module => 'prefork',
   ensure => installed,
 }
 
