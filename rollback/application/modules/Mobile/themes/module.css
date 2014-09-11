@@ -1,0 +1,290 @@
+div > span.not_mobile_integrated{
+  background-color: #FBE3E4;
+  border: 2px solid #FBC2C4;
+  color: #D12F19;
+  display: block;
+  padding: 8px 5px;
+}
+.he_list_tabs {
+  margin:5px 0;
+}
+.he_list_tabs a.active{
+  font-weight:bold;
+}
+.mobile_rate {
+  width: 28px;
+  height: 28px;
+  display: block;
+  float: left;
+}
+[dir="rtl"] .mobile_rate {
+  float: right;
+}
+.item_review_rate {
+  float:left;
+}
+.item_review_count {
+  float:left;
+  margin-left:4px;
+}
+.pagediscussion_topic blockquote
+{
+  border: 1px dashed $theme_border_medium_color;
+  background: $theme_body_background_color;
+  padding: 5px;
+  margin-top:5px;
+}
+.pageevent_event .event_info .item .label {
+  width: 65px;
+  float:left;
+}
+.pageevent_event .event_info .item .value {
+  margin-left:10px;
+  float:left;
+}
+.clr {
+  clear:both;
+}
+
+.pageevent_event .options {
+  margin:10px 0;
+}
+.pageevent_event .options .item {
+  float: left;
+  margin: 0 2px;
+}
+.pageevent_event .options .item span {
+  line-height: 22px;
+}
+.pageevent_event .options .item button {
+  padding:3px;
+}
+.pageevent_event .options .item button.active {
+  background-color:$theme_button_background_color_hover;
+  background-image:none;
+  margin-left: 3px;
+}
+.rate_stars_cont img,
+.rate_stars_cont .count {
+  float:left;
+  margin:0;
+}
+[dir="rtl"] .rate_stars_cont img,
+[dir="rtl"] .rate_stars_cont .count {
+  float:right;
+}
+.rate_stars_cont .count {
+  margin-left:3px;
+}
+.review_stars_static .title {
+  float:left;
+}
+.review_stars_static .rating {
+  float:left;
+}
+.review_stars_static .title {
+  float:left;
+  font-weight:bold;
+  margin-left:10px;
+}
+.profile_fields
+{
+  margin-top: 10px;
+  overflow: hidden;
+}
+.profile_fields > ul
+{
+  padding: 10px;
+}
+.profile_fields > ul > li
+{
+  overflow: hidden;
+}
+.profile_fields > ul > li + li
+{
+  margin-top: 5px;
+}
+.profile_fields > ul > li > span
+{
+  display: block;
+  float: left;
+  overflow: hidden;
+  width: 175px;
+}
+html[dir="rtl"] .profile_fields > ul > li > span
+{
+  float: right;
+}
+.profile_fields > ul > li > span + span
+{
+  min-width: 0px;
+  display: block;
+  float: none;
+  overflow: hidden;
+}
+.profile_fields
+{
+  margin-top: 10px;
+  overflow: hidden;
+}
+.profile_fields > ul
+{
+  padding: 10px;
+}
+.profile_fields > ul > li
+{
+  overflow: hidden;
+}
+.profile_fields > ul > li + li
+{
+  margin-top: 5px;
+}
+.profile_fields > ul > li > span
+{
+  display: block;
+  float: left;
+  overflow: hidden;
+  width: 175px;
+}
+html[dir="rtl"] .profile_fields > ul > li > span
+{
+  float: right;
+}
+.profile_fields > ul > li > span + span
+{
+  min-width: 0px;
+  display: block;
+  float: none;
+  overflow: hidden;
+}
+
+.unread{
+	font-weight:bold;
+}
+.read{
+	font-size: 0.7em;
+}
+.layout_mobile_page_profile_note,
+.layout_mobile_rate_widget,
+.layout_mobile_like_box,
+.article_entrylist_entry_photos {
+  margin:10px 0;
+}
+.page_item_featured
+{
+  background-color: $theme_topbar_background_color;
+  border: 1px solid $theme_form_border_color;
+  padding: 1px 4px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+ul.items li.active{
+	background-color:	$theme_hover_color;
+}
+.qa_best_answer {
+  font-weight:700;
+  color:#89b45f;
+}
+.result_message  {
+  padding: 6px;
+  background-color: $theme_form_background_color;
+  border: 1px solid $theme_form_border_color;
+  margin:10px 0;
+}
+.global_form,
+.global_form_popup {
+  margin:10px 0;
+}
+.global_form > div > div,
+.global_form_popup  > div > div{
+  width:100%;
+}
+.mobile_box {
+  padding:5px;
+}
+.layout_mobile_html_block {
+  margin:10px 0;
+}
+input.mobile_form_rate_radio {
+  float:left !important;
+  clear:none !important;
+  margin-right:3px;
+}
+.mobile_form_rate_div {
+  float:left;
+  clear:none;
+  margin-right:18px;
+  line-height:18px;
+}
+
+
+/*
+* SUGGEST Module Styles
+*/
+
+ul.items > li .check,
+ul#he_contacts_list li > div.check {
+  float: left;
+  display: block;
+  width: 20px;
+  margin: 13px 2px;
+}
+
+.btn {
+  margin: 10px;
+  line-height:26px;
+}
+
+.suggest-object .photo,
+.suggest-object .info,
+.suggest-object .info .title,
+.suggest-object .info .title a,
+.suggest-object .info .options,
+.suggest-object .info .options .join,
+.suggest-object .info .options .like,
+.suggest-object .info .options .friend {
+  float: left;
+}
+
+.suggest-object .photo,
+.suggest-object .info {
+  padding: 5px;
+}
+
+.suggest-object .info {
+  width: 260px;
+}
+
+.suggest-object .info .title > a {
+  font-weight: bold;
+}
+
+.suggest-object .info .description,
+.suggest-object .info .options {
+  margin-top: 5px;
+}
+
+.suggest-object .info .description {
+  color: $theme_font_color_light;
+}
+
+.suggest-object .info .options * {
+  display: block;
+  float: left;
+}
+
+.suggest-object .info .options .or {
+  padding: 0 10px;
+  color: $theme_font_color_light;
+}
+
+.suggest-object .info .options .cancel .disabled {
+}
+
+.suggest-object .info .options .cancel .disabled:hover {
+  background-color: $theme_button_background_color_hover;
+}
+
+.suggest-object .info .title > a {
+  margin: 5px 5px 0px 0px;
+}

@@ -1,11 +1,11 @@
 <?php defined('_ENGINE') or die('Access Denied'); return array (
   'adapter' => 'mysqli',
-  'params' =>
+  'params' => 
   array (
-    'host' => 'wealthmentprod.c1fku54iim6w.us-east-1.rds.amazonaws.com',
-    'username' => 'prod',
-    'password' => 'K0m1P0',
-    'dbname' => 'prod',
+    'host' => 'localhost',
+    'username' => 'dev1',
+    'password' => 'wealthment',
+    'dbname' => 'dev1',
     'charset' => 'UTF8',
     'adapterNamespace' => 'Zend_Db_Adapter',
   ),

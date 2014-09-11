@@ -1,0 +1,1 @@
+INSERT IGNORE INTO `engine4_core_modules` (`name`, `title`, `description`, `version`, `enabled`, `type`) VALUES  ('hequestion', 'Questions', 'Questions', '4.2.5', 1, 'extra') ;

@@ -1,0 +1,619 @@
+
+"WALL_Share"; "Share"
+"WALL_Post Something..."; "Post Something..."
+"WALL_LIST"; "Lists"
+"WALL_EMPTY_FEED"; "Nothing has been posted here yet - be the first!"
+
+"WALL_SHARE_FACEBOOK"; "Share to Facebook"
+"WALL_SHARE_TWITTER"; "Share to Twitter"
+
+"WALL_SHARE_FACEBOOK_ACTIVE"; "Share to Facebook.<br />User Account: %1$s (<a href='javascript:void(0)' class='wall_logout'>Logout</a>).<br />Please click to choose an account"
+"WALL_SHARE_TWITTER_ACTIVE"; "Share to Twitter.<br />User Account: %1$s (<a href='javascript:void(0)' class='wall_logout'>Logout</a>). <br />Please click to choose an account"
+"WALL_FACEBOOK_POST_ACTION_TITLE"; "%1$s: Activity Feed"
+
+"WALL_LOADING"; "Loading ..."
+
+"WALL_STREAM_EMPTY_VIEWALL"; "There are no posts"
+"WALL_STREAM_EMPTY"; "Nothing has been posted here yet - be the first!"
+
+"WALL_EMPTY_FEED"; "Nothing has been posted here yet - be the first!"
+
+"WALL_ADMIN_MAIN_PLUGINS_WALL"; "HE - Wall"
+"WALL_ADMIN_MAIN_HEADER_TITLE"; "Wall Plugin"
+"WALL_ADMIN_MAIN_HEADER_DESCRIPTION"; "It provides a great AJAX wall for SocialEngine, you can view the plugin details <a href='http://www.hire-experts.com/social-engine/new-wall-plugin' target='_blank'>here</a>. Also it is recommended to check FAQ for Wall plugin set up on My Plugins section at Hire-Experts.com - <a href='http://www.hire-experts.com/my_plugins.php' target='_blank'>http://www.hire-experts.com/my_plugins.php</a><br />
+Below you can view list of plugin settings - they are configured by default but you can edit them according to your needs. If you would like to enable Facebook and Twitter auto-posting and feeds, then please configure them at the page bottom.<br /><br />
+<span style='font-weight:bold'>We Recommend:</span><br />
+<a href='http://www.hire-experts.com/social-engine/touch-mobile-plugin' target='_blank'>Touch-Mobile plugin</a> - it smoothly integrated with Wall plugin. It allows members to do almost all things of wall via mobile devices. It is really powerful, user friendly and attractive. Please check details <a href='http://www.hire-experts.com/social-engine/touch-mobile-plugin' target='_blank'>here</a>. Note: it is an optional plugin.<br />
+<a href='http://www.hire-experts.com/social-engine/check-in-plugin' target='_blank'>Check-In plugin</a> - allows your members to share their location. It is lightweight and attractive plugin. Note: it is an optional plugin.<br />
+<a href='http://www.hire-experts.com/social-engine/timeline-plugin' target='_blank'>Timeline plugin</a> provides a new kind of profile page, it is beautiful and easy on the eyes. Note: it is an optional plugin.<br />
+<a href='http://www.hire-experts.com/social-engine/rates-plugin' target='_blank'>Rates plugin</a> - if you would like to provide rating and reviews option to your members. Note: it is an optional plugin.<br />"
+
+"WALL_ADMIN_MAIN_SETTING"; "Global Settings"
+"WALL_ADMIN_MAIN_ACTIVITY"; "Activity Feed Settings"
+
+"WALL_FACEBOOK_FORM_TITLE"; "Facebook Integration"
+"WALL_FACEBOOK_FORM_DESCRIPTION"; "Wall plugin allows your members to view their Facebook feed and automatically post to Facebook in SocialEngine wall. To do so, create an Application through the <a target='_blank' href='http://www.facebook.com/developers/apps.php'>Facebook Developers</a> page."
+
+"WALL_FACEBOOK_CLIENT_ID"; "Facebook App ID"
+"WALL_FACEBOOK_CLIENT_ID_DESCRIPTION"; ""
+
+"WALL_FACEBOOK_CLIENT_SECRET"; "Facebook App Secret"
+"WALL_FACEBOOK_CLIENT_SECRET_DESCRIPTION"; ""
+
+"WALL_TWITTER_FORM_TITLE"; "Twitter Integration"
+"WALL_TWITTER_FORM_DESCRIPTION"; "Wall plugin allows your members to view their Twitter feed and automatically post tweets to Twitter in SocialEngine wall. To do so, create an Application through the <a target='_blank' href='https://dev.twitter.com/apps/new'>Twitter Developers</a> page. <b style='font-weight: bold;'>You will need to select 'Read &amp; Write' in order to allow posting to Twitter.</b> Please use the following Callback URL: %1$s</p>"
+
+"WALL_FACEBOOK_FORM_ENABLED"; "Enabled Integration"
+"WALL_TWITTER_FORM_ENABLED"; "Enabled Integration"
+
+
+"WALL_TWITTER_CLIENT_ID"; "Twitter App Consumer Key"
+"WALL_TWITTER_CLIENT_SECRET"; "Twitter App Consumer Secret"
+"WALL_TWITTER_CLIENT_ID_DESCRIPTION"; ""
+"WALL_TWITTER_CLIENT_SECRET_DESCRIPTION"; ""
+
+
+"WALL_LIKE"; "Like"
+"WALL_UNLIKE"; "Unlike"
+
+
+
+"%1$s is now friends with %2$s and %3$s"; "%1$s is now friends with %2$s and %3$s"
+"%1$s likes %2$s and %3$s"; "%1$s likes %2$s and %3$s"
+
+
+"%1$s is now friends with %2$s and %3$s"; "%1$s is now friends with %2$s and %3$s"
+"%1$s likes %2$s and %3$s"; "%1$s likes %2$s and %3$s"
+
+"%1$s other people"; "%1$s other people"; "%1$s other people"
+"%1$s other page"; "%1$s other page"; "%1$s other pages"
+
+"%s like"; "%s like"; "%s likes"
+"%s mutual friend"; "%s mutual friend"; "%s mutual friends"
+"%s friend"; "%s friend"; "%s friends"
+"%s member"; "%s member"; "%s members"
+
+
+"WALL_RECENT"; "Most Recent"
+"WALL_TYPE_PAGE"; "Pages"
+"WALL_TYPE_FRIEND"; "Friends"
+"WALL_TYPE_PHOTO"; "Photos"
+"WALL_TYPE_STATUS"; "Status"
+"WALL_TYPE_CREATE_NEW"; "Create a new list"
+
+"WALL_LIST_ALL"; "All"
+"WALL_LIST_MEMBER"; "Members"
+"WALL_LIST_PAGE"; "Pages"
+"WALL_LIST_GROUP"; "Groups"
+"WALL_LIST_SELECTED"; "Selected"
+
+"WALL_LIST_CREATE_HEADER_TITLE"; "Create New List"
+"WALL_LIST_CREATE_HEADER_DESCRIPTION"; "Choose items from drop down list"
+"WALL_LIST_LABEL"; "Label"
+
+"WALL_LIST_EDIT_HEADER_TITLE"; "Edit List"
+"WALL_LIST_EDIT_HEADER_DESCRIPTION"; "Choose items from drop down list"
+"WALL_LIST_LABEL"; "Label"
+
+
+"WALL_LIST_CREATE_ERROR"; "An error occurred. Check form fields and try again or you do not have enough permissions."
+"WALL_LIST_CREATE_SUCCESS"; "List has been saved"
+"WALL_ERROR"; "An error occurred"
+
+
+"WALL_LIST_EMPTY"; "No results were found."
+"WALL_LIST_EMPTY_SEARCH"; "No results were found."
+"WALL_LIST_SELECTED_EMPTY"; "No one selected"
+
+
+"WALL_CONFIRM_ACTION_REMOVE_TITLE"; "Delete"
+"WALL_CONFIRM_ACTION_REMOVE_DESCRIPTION"; "Are you sure you want to delete this activity?"
+
+"WALL_CONFIRM_COMMENT_REMOVE_TITLE"; "Delete"
+"WALL_CONFIRM_COMMENT_REMOVE_DESCRIPTION"; "Are you sure you want to delete this comment?"
+
+"WALL_CONFIRM_LIST_REMOVE_TITLE"; "Delete"
+"WALL_CONFIRM_LIST_REMOVE_DESCRIPTION"; "Are you sure you want to delete this list?"
+
+"WALL_COMMENT_COUNT"; "%1$s from %2$s"
+"WALL_COMMENT_NEXT"; "View previous comments"
+
+"WALL_STREAM_SOCIAL"; "What's New"
+"WALL_STREAM_FACEBOOK"; "Facebook"
+"WALL_STREAM_TWITTER"; "Twitter"
+"WALL_STREAM_LINKEDIN"; "Linkedin"
+
+
+"WALL_STREAM_FACEBOOK_LOGIN"; "Please login this social network. %1$sClick this%2$s"
+"WALL_STREAM_TWITTER_LOGIN"; "Please login this social network. %1$sClick this%2$s"
+"WALL_STREAM_LINKEDIN_LOGIN"; "Please login this social network. %1$sClick this%2$s"
+
+
+"WALL_REFRESH"; "Refresh"
+"WALL_TYPES_TITLE"; "You can create and edit list"
+"WALL_SERVICE_STREAM_EMPTY"; "Empty Messages"
+"WALL_GROUPED_TITLE"; "Click to View"
+
+
+
+
+"WALL_ITEMS_LIKE_HEADER_TITLE"; "People who like this"
+"WALL_ITEMS_LIKE_HEADER_DESCRIPTION"; ""
+
+"WALL_CAMERA_FREEZE"; "Shoot!"
+"WALL_CAMERA_CANCEL"; "Cancel"
+"WALL_CAMERA_UPLOAD"; "Upload"
+"WALL_COMPOSE_CAMERA"; "Take picture"
+
+"WALL_STREAM_ERROR"; "An error has occurred"
+"WALL_IS_MOBILE"; "Published from mobile"
+
+"WALL_LIST_INVALID"; "Invalid data"
+"WALL_LIST_CREATED"; "List has been created"
+"WALL_LIST_REMOVED"; "List has been removed"
+"WALL_LIST_EDITED"; "List has been edited"
+
+"WALL_ITEMS_EMPTY_SEARCH"; "No results were found."
+"WALL_ITEMS_EMPTY"; "No results were found."
+
+
+"WALL_ADMIN_CONTENT_TITLE"; "Wall Feed Settings"
+"WALL_ADMIN_CONTENT_DESCRIPTION"; ""
+
+"WALL_ADMIN_CONTENT_NL2BR"; "Wrap a new line in action and comments"
+"WALL_ADMIN_CONTENT_LIKETIPS"; "Enable tips popup"
+"WALL_ADMIN_CONTENT_LIKETIPS_DESC"; "Select the checkbox if you would like to enable tips popup on wall feed. These tips are displayed on member|page|groups|events names mouseover"
+"WALL_ADMIN_CONTENT_SLIDESHOW"; "Enable slideshow"
+"WALL_ADMIN_CONTENT_SLIDESHOW_DESC"; "Select the checkbox if you would like to enable slideshow for photos on wall feed"
+
+"WALL_ADMIN_LIST_TITLE"; "List Settings"
+"WALL_ADMIN_LIST_DESCRIPTION"; "Below you can the listing which is selected by default for all members, but members are allowed to change the list if you have enabled `Save the last choosed list` setting. `Most Recent` is a default list until you click on Make Default link from items below:"
+
+"WALL_ADMIN_LIST_DEFAULT"; "Default list"
+
+"WALL_ADMIN_LIST_RECENT"; "Most Recent"
+"WALL_ADMIN_LIST_PAGE"; "Pages"
+"WALL_ADMIN_LIST_FRIEND"; "Friends"
+"WALL_ADMIN_LIST_PHOTO"; "Photos"
+"WALL_ADMIN_LIST_STATUS"; "Status"
+
+"WALL_SERVICE_LOGOUT"; "Logout network"
+
+"WALL_ADMIN_LIST_MAKE_DEFAULT"; "Make Default"
+"WALL_ADMIN_LIST_UNMAKE_DEFAULT"; "Unmake Default"
+
+"WALL_LIST_USER_SAVE"; "Save the last choosed list"
+"WALL_LIST_USER_SAVE_DESC"; "If you select this checkbox then it will save the last choosed list on the wall."
+"WALL_ADMIN_CONTENT_ROLLDOWNLOAD"; "Load more activities on roll down"
+"WALL_ADMIN_CONTENT_ROLLDOWNLOAD_DESC"; "Select this checkbox if you would like wall to automatically load more activities(instead of clicking on View more link) on roll down"
+"WALL_NOTIFICATION_TAG"; "{item:$subject} you tagged in a {item:$object:post}"
+
+"WALL_ADMIN_CONTENT_DIALOGCONFIRM"; "Show confirmation dialogs"
+"WALL_ADMIN_CONTENT_DIALOGCONFIRM_DESC"; "If you select the checkbox below then it will show confirmation dialog when member click `Delete` link of activity items and comments"
+
+"WALL_FACEBOOK_COMMENT"; "Comment"
+"WALL_FACEBOOK_LIKE"; "Like"
+"WALL_FACEBOOK_SHARE"; "Share"
+
+"WALL_TWITTER_REPLY"; "Reply"
+"WALL_TWITTER_RETWEET"; "Retweet"
+"WALL_TWITTER_FAVORITE"; "Favorite"
+
+
+"ACTIVITY_TYPE_WALL_TAG"; "When I'm tagged in post"
+
+"_EMAIL_NOTIFY_WALL_TAG_TITLE"; "Wall Tagged"
+"_EMAIL_NOTIFY_WALL_TAG_DESCRIPTION"; "This email is sent to the member when someone tags them."
+"_EMAIL_NOTIFY_WALL_TAG_SUBJECT"; "You have Been Tagged"
+"_EMAIL_NOTIFY_WALL_TAG_BODY"; "[header]
+
+You have been tagged in a post. Please click the following link to view it:
+
+http://[host][object_link]
+
+[footer]"
+
+"WALL_PRIVACY_USER_EVERYONE"; "Public"
+"WALL_PRIVACY_USER_NETWORKS"; "My Friends & Networks"
+"WALL_PRIVACY_USER_MEMBERS"; "My Friends"
+"WALL_PRIVACY_USER_OWNER"; "Only me"
+
+"WALL_PRIVACY_PAGE_EVERYONE"; "Public"
+"WALL_PRIVACY_PAGE_REGISTERED"; "Registered"
+"WALL_PRIVACY_PAGE_PAGE"; "Likes, Admins and Owner"
+
+"WALL_ADMIN_LIST_GROUP"; "Groups"
+"WALL_ADMIN_LIST_EVENT"; "Events"
+"WALL_ADMIN_LIST_BLOG"; "Blogs"
+"WALL_ADMIN_LIST_POLL"; "Polls"
+"WALL_ADMIN_LIST_CLASSIFIED"; "Classifieds"
+"WALL_ADMIN_LIST_FORUM"; "Forum"
+"WALL_ADMIN_LIST_MUSIC"; "Music"
+"WALL_ADMIN_LIST_VIDEO"; "Videos"
+"WALL_ADMIN_LIST_SIGNUP"; "Signups"
+"WALL_ADMIN_LIST_POPULAR"; "Popular"
+
+"WALL_TYPE_POPULAR"; "Popular"
+"WALL_TYPE_GROUP"; "Groups"
+"WALL_TYPE_EVENT"; "Events"
+"WALL_TYPE_BLOG"; "Blogs"
+"WALL_TYPE_POLL"; "Polls"
+"WALL_TYPE_CLASSIFIED"; "Classifieds"
+"WALL_TYPE_FORUM"; "Forum"
+"WALL_TYPE_MUSIC"; "Music"
+"WALL_TYPE_VIDEO"; "Videos"
+"WALL_TYPE_SIGNUP"; "Signups"
+
+
+"WALL_TWITTER_UNFAVORITE"; "Favorited"
+"WALL_TWITTER_RETWEETED"; "Retweeted"
+
+"WALL_TWITTER_REPLY_SUBMIT"; "Tweet"
+
+"WALL_ADMIN_CONTENT_LISTENABLED"; "Enable custom lists"
+"WALL_ADMIN_CONTENT_LISTENABLED_DESC"; "Check here if you would like to enable custom lists, which can be created by members on wall"
+
+"WALL_ADMIN_CONTENT_AUTOLOAD"; "Enable autoload new updates"
+"WALL_ADMIN_CONTENT_AUTOLOAD_DESC"; "Check here if you would like automatically load new updates(wall posts) without any click."
+
+"WALL_ADMIN_CONTENT_PROFILEHOME"; "Replace Member Profile wall to Member Home wall"
+"WALL_ADMIN_CONTENT_PROFILEHOME_DESC"; "Check here if you would lke to display common Member Home wall on Member Profile page, if you're not sure then please leave it unchecked."
+
+
+"WALL_TWITTER_REPLY_TO"; "Reply to %s"
+"WALL_TWITTER_IN_REPLY"; "In reply to %s"
+"WALL_TWITTER_VIA"; " via %s"
+"WALL_TWITTER_DELETE"; "Delete"
+
+"WALL_CONFIRM_TWITTER_DELETE_TITLE"; "Are you sure you want to delete this tweet?"
+"WALL_CONFIRM_TWITTER_DELETE_DESCRIPTION"; ""
+
+"WALL_SENDING"; "Sending ... "
+
+"Add Smile"; "Add Smile"
+
+
+"WALL_ADMIN_PRIVACY_TITLE"; "Privacy"
+"WALL_ADMIN_PRIVACY_DESCRIPTION"; "Check privacy options which will be available on wall for members and pages:"
+
+"WALL_EDIT_TRANSLATE"; "Edit Translate"
+
+"WALL_ADMIN_PRIVACY_CATEGORY_USER"; "User"
+"WALL_ADMIN_PRIVACY_CATEGORY_PAGE"; "Page"
+
+"WALL_ADMIN_TABS_TITLE"; "Tabs"
+"WALL_ADMIN_TABS_DESCRIPTION"; "Enable/disable tabs on Wall."
+
+
+"WALL_STREAM_WELCOME"; "Welcome"
+
+
+"WALL_UPLOAD_PHOTO_TITLE"; "Upload a profile photo"
+"WALL_UPLOAD_PHOTO_DESCRIPTION"; ""
+
+"WALL_Upload a Photo"; "Upload a Photo"
+"WALL_From your computer"; "From your computer"
+"WALL_OR"; "or"
+"WALL_Take a Photo"; "Take a Photo"
+"WALL_With your webcam"; "With your webcam"
+
+
+"WALL_ADMIN_CONTENT_FRIENDLISTENABLED"; "Display member friends lists on Wall"
+"WALL_ADMIN_CONTENT_FRIENDLISTENABLED_DESC"; "Members are allowed to create friends list by default in SocialEngine, if you it is important on your site then enable these lists on Wall"
+
+
+"WALL_ADMIN_CONTENT_BITLY"; "Use bitly for short urls"
+"WALL_ADMIN_CONTENT_BITLY_DESC"; "When sharing on facebook, twitter, etc .."
+
+"Add People"; "Add People"
+
+"WALL_Who are you with?"; ""
+"WALL_with %1$s"; "with %1$s"
+"WALL_with %1$s and %2$s"; "with %1$s and %2$s"
+"WALL_is"; "is"
+"WALL_%1$s others"; "%1$s others"
+
+"WALL_Link to this post"; "Link to this post"
+"WALL_Copy this link to send a copy of this post to others:"; "Copy this permalink to send this post to others:"
+"WALL_GO"; "GO!"
+"WALL_No longer seeing this post."; "No longer seeing this post."
+"WALL_Undo mute"; "Undo hiding the post"
+
+"WALL_MENU_Link to this post"; "Link to this post"
+"WALL_MENU_Report Abuse"; "Report Abuse"
+"WALL_MENU_Mute this post"; "Hide this post"
+"WALL_MENU_Remove Tag"; "Remove Tag"
+"WALL_CONFIRM_REMOVE_TAG_TITLE"; "Remove the tag member created"
+"WALL_CONFIRM_REMOVE_TAG_DESCRIPTION"; "This removes the tag and takes the post off your profile. The post will still be visible in other places unless member takes it down."
+
+"WALL_ADMIN_COMPOSERS_TITLE"; "Wall Attachments"
+"WALL_ADMIN_COMPOSERS_DESCRIPTION"; "Check options which you would like to display on wall posting form."
+
+"WALL_COMPOSERS_PHOTO"; "Add Photo"
+"WALL_COMPOSERS_LINK"; "Add Link"
+"WALL_COMPOSERS_MUSIC"; "Add Music"
+"WALL_COMPOSERS_MP3MUSIC"; "Add Music (by Mp3music)"
+"WALL_COMPOSERS_VIDEO"; "Add Video"
+"WALL_COMPOSERS_AVP"; "Add Video (by AVP)"
+"WALL_COMPOSERS_PEOPLE"; "Add Peoples"
+"WALL_COMPOSERS_SMILE"; "Add Smiles"
+
+"WALL_ADMIN_CONTENT_SMILE"; "Enable smiles"
+"WALL_ADMIN_CONTENT_SMILE_DESC"; "Select this checkbox if you would like to enable smiles in wall posts."
+
+
+"WALL_LINKEDIN_FORM_TITLE"; "Lindedin Integration"
+"WALL_LINKEDIN_FORM_DESCRIPTION"; "Wall plugin allows your members to view their Linkedin feed and automatically post to Linkedin in SocialEngine wall. To do so, create an Application through the <a target='_blank' href='https://www.linkedin.com/secure/developer'>Linkedin Developers</a> page."
+"WALL_LINKEDIN_FORM_ENABLED"; "Enabled Integration"
+"WALL_LINKEDIN_CLIENT_ID"; "API Key:"
+"WALL_LINKEDIN_CLIENT_SECRET"; "Secret Key:"
+"WALL_LINKEDIN_CLIENT_ID_DESCRIPTION"; ""
+"WALL_LINKEDIN_CLIENT_SECRET_DESCRIPTION"; ""
+
+
+"WALL_WELCOME"; "Welcome to %1$s"
+
+"WALL_ADMIN_TAB_MAKE_DEFAULT"; "Make default"
+"WALL_ADMIN_TAB_UNMAKE_DEFAULT"; "Unmake default"
+
+"WALL_%1$s is a mutual friend"; "%1$s is a mutual friend"
+"WALL_%1$s and %2$s are mutual friends"; "%1$s and %2$s are mutual friends"
+"WALL_%1$s and %2$s other mutual friends"; "%1$s and %2$s other mutual friends"
+
+"WALL_USER_NETWORKS_TAGGED"; "<br /> and friends of anyone tagged"
+"WALL_USER_MEMBERS_TAGGED"; "<br /> and friends of anyone tagged"
+"WALL_USER_OWNER_TAGGED"; "<br /> and anyone tagged"
+"WALL_PAGE_PAGE_TAGGED"; "<br /> and anyone tagged"
+
+
+"WALL_FACEBOOK_UNLIKE"; "Unlike"
+"WALL_FACEBOOK_COMMENT_SUBMIT"; "Post Comment"
+
+
+"WALL_WELCOME_WELCOME"; ""
+"WALL_WELCOME_NEWWALL"; ""
+"WALL_WELCOME_INVITER"; "Invite Your Friends"
+"WALL_WELCOME_UPLOAD_PHOTO"; "Upload a profile photo"
+"WALL_WELCOME_PEOPLE_KNOW"; "Add People You May Know"
+"WALL_WELCOME_LIKES"; "Most Likes"
+"WALL_WELCOME_SUGGESTION"; "Explore Suggestions"
+"WALL_WELCOME_BIRTHDAYS"; "Birthdays"
+"WALL_WELCOME_GIFTACTUAL"; "Actual Gifts"
+"WALL_WELCOME_CREDIT_FAQ"; "Earn Credits"
+"WALL_CHOOSE_MY_PAGE"; "or choose my page"
+"WALL_FBPAGE_NO"; "No"
+
+"WALL_WELCOME_DESC"; "Welcome! Feel free to invite your friends, explore suggestions, share interesting things with your friends and many more!"
+
+"WALL_SHARE_LINKEDIN"; "Share to Linkedin"
+"WALL_SHARE_LINKEDIN_ACTIVE"; "Share to Linkedin.<br />User Account: %1$s (<a href='javascript:void(0)' class='wall_logout'>Logout</a>). <br />Please click to choose an account"
+
+
+"WALL_LINKEDIN_%1$s is now connected to %2$s."; "%1$s is now connected to %2$s."
+"WALL_LINKEDIN_%1$s is now a connection."; "%1$s is now a connection."
+"WALL_LINKEDIN_%1$s has joined LinkedIn."; "%1$s has joined LinkedIn."
+"WALL_LINKEDIN_%1$s %2$s"; "%1$s %2$s"
+"WALL_LINKEDIN_%1$s joined the group %2$s."; "%1$s joined the group %2$s."
+"WALL_LINKEDIN_%1$s has added a new profile photo."; "%1$s has added a new profile photo."
+"WALL_LINKEDIN_%1$s answered: %2$s"; "%1$s answered the question %2$s"
+"WALL_LINKEDIN_%1$s has an updated own profile."; "%1$s has an updated own profile."
+"WALL_LINKEDIN_%1$s is now following %2$s."; "%1$s is now following %2$s."
+"WALL_LINKEDIN_%1$s was recommended %2$s"; "%1$s was recommended %2$s"
+"WALL_LINKEDIN_%1$s recommends %2$s"; "%1$s recommends %2$s"
+
+"WALL_LINKEDIN_COMMENT_SUBMIT"; "Comment"
+"WALL_LINKEDIN_LIKE"; "Like"
+"WALL_LINKEDIN_UNLIKE"; "Unlike"
+"WALL_LINKEDIN_COMMENT"; "Comment"
+
+"%s comment"; "%s comment"; "%s comments"
+
+"WALL_Upload"; "Upload"
+"WALL_Import"; "Import"
+
+
+
+
+
+
+"WALL_SMILE"; "Smile"
+"WALL_BIG_SMILE"; "Big smile"
+"WALL_GRIN"; "Grin"
+"WALL_LAUGH"; "Laugh"
+"WALL_FROWN"; "Frown"
+"WALL_BIG_FROWN"; "Big frown"
+"WALL_CRY"; "Cry"
+"WALL_NEUTRAL"; "Neutral"
+"WALL_WINK"; "Wink"
+"WALL_KISS"; "Kiss"
+"WALL_RAZZ"; "Razz"
+"WALL_CHIC"; "Chic"
+"WALL_COOL"; "Cool"
+"WALL_ANGRY"; "Angry"
+"WALL_REALLY_ANGRY"; "Really angry"
+"WALL_CONFUSED"; "Confused"
+"WALL_QUESTION"; "Question"
+"WALL_THINKING"; "Thinking"
+"WALL_PAIN"; "Pain"
+"WALL_SHOCK"; "Shock"
+"WALL_YES"; "Yes"
+"WALL_NO"; "No"
+"WALL_LOL"; "Lol"
+"WALL_SILLY"; "Silly"
+"WALL_BEAUTY"; "Beauty"
+"WALL_LASHES"; "Lashes"
+"WALL_CUTE"; "Cute"
+"WALL_SHY"; "Shy"
+"WALL_BLUSH"; "Blush"
+"WALL_KISSED"; "Kissed"
+"WALL_IN_LOVE"; "In love"
+"WALL_DROOL"; "Drool"
+"WALL_GIGGLE"; "Giggle"
+"WALL_SNICKER"; "Snicker"
+"WALL_HEH!"; "Heh!"
+"WALL_SMIRK"; "Smirk"
+"WALL_WILT"; "Wilt"
+"WALL_WEEP"; "Weep"
+"WALL_IDK"; "Idk"
+"WALL_STRUGGLE"; "Struggle"
+"WALL_SIDE_FROWN"; "Side frown"
+"WALL_DAZED"; "Dazed"
+"WALL_HYPNOTIZED"; "Hypnotized"
+"WALL_SWEAT"; "Sweat"
+"WALL_EEK!"; "Eek!"
+"WALL_ROLL_EYES"; "Roll eyes"
+"WALL_SARCASM"; "Sarcasm"
+"WALL_DISDAIN"; "Disdain"
+"WALL_SMUG"; "Smug"
+"WALL_MONEY_MOUTH"; "Money mouth"
+"WALL_FOOT_IN_MOUTH"; "Foot in_mouth"
+"WALL_SHUT_MOUTH"; "Shut mouth"
+"WALL_QUIET"; "Quiet"
+"WALL_SHAME"; "Shame"
+"WALL_BEAT_UP"; "Beat up"
+"WALL_MEAN"; "Mean"
+"WALL_EVIL_GRIN"; "Evil grin"
+"WALL_GRIT_TEETH"; "Grit teeth"
+"WALL_SHOUT"; "Shout"
+"WALL_PISSED_OFF"; "Pissed off"
+"WALL_REALLY_PISSED"; "Really pissed"
+"WALL_MAD_RAZZ"; "Mad razz"
+"WALL_DRUNKEN_RAZZ"; "Drunken razz"
+"WALL_SICK"; "Sick"
+"WALL_YAWN"; "Yawn"
+"WALL_SLEEPY"; "Sleepy"
+"WALL_DANCE"; "Dance"
+"WALL_CLAP"; "Clap"
+"WALL_JUMP"; "Jump"
+"WALL_HANDSHAKE"; "Handshake"
+"WALL_HIGH_FIVE"; "High five"
+"WALL_HUG_LEFT"; "Hug left"
+"WALL_HUG_RIGHT"; "Hug right"
+"WALL_KISS_BLOW"; "Kiss blow"
+"WALL_KISSING"; "Kissing"
+"WALL_BYE"; "Bye"
+"WALL_GO_AWAY"; "Go away"
+"WALL_CALL_ME"; "Call me"
+"WALL_ON_THE_PHONE"; "On the_phone"
+"WALL_SECRET"; "Secret"
+"WALL_MEETING"; "Meeting"
+"WALL_WAVING"; "Waving"
+"WALL_STOP"; "Stop"
+"WALL_TIME_OUT"; "Time out"
+"WALL_TALK_TO_THE_HAND"; "Talk to the hand"
+"WALL_LOSER"; "Loser"
+"WALL_LYING"; "Lying"
+"WALL_DOH!"; "Doh!"
+"WALL_FINGERS_CROSSED"; "Fingers crossed"
+"WALL_WAITING"; "Waiting"
+"WALL_SUSPENSE"; "Suspense"
+"WALL_TREMBLE"; "Tremble"
+"WALL_PRAY"; "Pray"
+"WALL_WORSHIP"; "Worship"
+"WALL_STARVING"; "Starving"
+"WALL_EAT"; "Eat"
+"WALL_VICTORY"; "Victory"
+"WALL_CURSE"; "Curse"
+"WALL_ALIEN"; "Alien"
+"WALL_ANGEL"; "Angel"
+"WALL_CLOWN"; "Clown"
+"WALL_COWBOY"; "Cowboy"
+"WALL_CYCLOPS"; "Cyclops"
+"WALL_DEVIL"; "Devil"
+"WALL_DOCTOR"; "Doctor"
+"WALL_FEMALE_FIGHTER"; "Female fighter"
+"WALL_MALE_FIGHTER"; "Male fighter"
+"WALL_MOHAWK"; "Mohawk"
+"WALL_MUSIC"; "Music"
+"WALL_NERD"; "Nerd"
+"WALL_PARTY"; "Party"
+"WALL_PIRATE"; "Pirate"
+"WALL_SKYWALKER"; "Skywalker"
+"WALL_SNOWMAN"; "Snowman"
+"WALL_SOLDIER"; "Soldier"
+"WALL_VAMPIRE"; "Vampire"
+"WALL_ZOMBIE_KILLER"; "Zombie killer"
+"WALL_GHOST"; "Ghost"
+"WALL_SKELETON"; "Skeleton"
+"WALL_BUNNY"; "Bunny"
+"WALL_CAT"; "Cat"
+"WALL_CAT_2"; "Cat 2"
+"WALL_CHICK"; "Chick"
+"WALL_CHICKEN"; "Chicken"
+"WALL_CHICKEN_2"; "Chicken 2"
+"WALL_COW"; "Cow"
+"WALL_COW_2"; "Cow 2"
+"WALL_DOG"; "Dog"
+"WALL_DOG_2"; "Dog 2"
+"WALL_DUCK"; "Duck"
+"WALL_GOAT"; "Goat"
+"WALL_HIPPO"; "Hippo"
+"WALL_KOALA"; "Koala"
+"WALL_LION"; "Lion"
+"WALL_MONKEY"; "Monkey"
+"WALL_MONKEY_2"; "Monkey 2"
+"WALL_MOUSE"; "Mouse"
+"WALL_PANDA"; "Panda"
+"WALL_PIG"; "Pig"
+"WALL_PIG_2"; "Pig 2"
+"WALL_SHEEP"; "Sheep"
+"WALL_SHEEP_2"; "Sheep 2"
+"WALL_REINDEER"; "Reindeer"
+"WALL_SNAIL"; "Snail"
+"WALL_TIGER"; "Tiger"
+"WALL_TURTLE"; "Turtle"
+"WALL_BEER"; "Beer"
+"WALL_DRINK"; "Drink"
+"WALL_LIQUOR"; "Liquor"
+"WALL_COFFEE"; "Coffee"
+"WALL_CAKE"; "Cake"
+"WALL_PIZZA"; "Pizza"
+"WALL_WATERMELON"; "Watermelon"
+"WALL_BOWL"; "Bowl"
+"WALL_PLATE"; "Plate"
+"WALL_CAN"; "Can"
+"WALL_FEMALE"; "Female"
+"WALL_MALE"; "Male"
+"WALL_HEART"; "Heart"
+"WALL_BROKEN_HEART"; "Broken heart"
+"WALL_ROSE"; "Rose"
+"WALL_DEAD_ROSE"; "Dead rose"
+"WALL_PEACE"; "Peace"
+"WALL_US_FLAG"; "Us flag"
+"WALL_MOON"; "Moon"
+"WALL_STAR"; "Star"
+"WALL_SUN"; "Sun"
+"WALL_CLOUDY"; "Cloudy"
+"WALL_RAIN"; "Rain"
+"WALL_THUNDER"; "Thunder"
+"WALL_UMBRELLA"; "Umbrella"
+"WALL_RAINBOW"; "Rainbow"
+"WALL_MUSIC_NOTE"; "Music note"
+"WALL_AIRPLANE"; "Airplane"
+"WALL_CAR"; "Car"
+"WALL_ISLAND"; "Island"
+"WALL_ANNOUNCE"; "Announce"
+"WALL_BRB"; "Brb"
+"WALL_MAIL"; "Mail"
+"WALL_CELL"; "Cell"
+"WALL_PHONE"; "Phone"
+"WALL_CAMERA"; "Camera"
+"WALL_FILM"; "Film"
+"WALL_TV"; "Tv"
+"WALL_CLOCK"; "Clock"
+"WALL_LAMP"; "Lamp"
+"WALL_SEARCH"; "Search"
+"WALL_COINS"; "Coins"
+"WALL_COMPUTER"; "Computer"
+"WALL_CONSOLE"; "Console"
+"WALL_PRESENT"; "Present"
+"WALL_SOCCER"; "Soccer"
+"WALL_CLOVER"; "Clover"
+"WALL_PUMPKIN"; "Pumpkin"
+"WALL_BOMB"; "Bomb"
+"WALL_HAMMER"; "Hammer"
+"WALL_KNIFE"; "Knife"
+"WALL_HANDCUFFS"; "Handcuffs"
+"WALL_PILL"; "Pill"
+"WALL_POOP"; "Poop"
+"WALL_CIGARETTE"; "Cigarette"

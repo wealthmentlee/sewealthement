@@ -1,0 +1,1 @@
+INSERT IGNORE INTO `engine4_core_modules` (`name`, `title`, `description`, `version`, `enabled`, `type`) VALUES  ('advancedsearch', 'Advanced Search', 'Advanced Search from Hire-Experts LLC', '4.5.1p6', 1, 'extra') ;

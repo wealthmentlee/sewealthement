@@ -1,0 +1,71 @@
+"MOBILE_View Upcoming Events"; "View Upcoming Events"
+"MOBILE_DESCRIPTION_LOGIN"; "If you already have an account, please enter your login details below."
+"MOBILE_BACK_TO_HOME"; "Click back to home"
+"MOBILE_LOGIN";"Sign In"
+"MOBILE_Incorrect username or user has been blocked. Please, check field \'Send to\' and try again.";"Incorrect username or user has been blocked. Please, check field \'Send to\' and try again."
+"MOBILE_Please type your post's body!";"Please type your post's body"
+"MOBILE_Please type your comment's body!";"Please type your comment's body"
+"MOBILE_Layout Editor";"Mobile Layout Editor"
+"MOBILE_LAYOUT_DESC";"Use the layout editor to decide what content appears on specific pages or in your site-wide header and footer. Click and drag the colored "blocks" to arrange the content you want on each page. Drag blocks to and from the "Available Blocks" area to add or remove them from your page."
+"MOBILE_ADMIN_DASHBOARD";"Mobile plugin allows your members to access your site using mobile phones and smartphones. It allows members to browse photos, participate in groups, attend events, read blogs, update profile status, comment, like, read messages, etc.<br />
+It does not allow to upload photos and create events, groups, etc; there is no any ajax or javascript. Mobile plugin is simplified to support most of mobile phones.<br /><br />
+
+<ul class='form-notices'><li>
+If you want powerful and user friendly mobile version of your site, <a href='http://www.hire-experts.com/social-engine/touch-mobile-plugin' target='_blank'>Touch-Mobile plugin</a> - is the right choice. Photo, video uploads, play music and videos, creation and participation in events, groups, mobile caching and more features available only in <a href='http://www.hire-experts.com/social-engine/touch-mobile-plugin' target='_blank'>Touch-Mobile plugin</a>.
+</li></ul>
+<span style='font-weight:bold'>We Recommend:</span><br />
+<a href='http://www.hire-experts.com/social-engine/new-wall-plugin' target='_blank'>Wall plugin</a> - if you would like provide advanced and attractive wall to your members where they can share messages, photos, videos, music, etc. Note: it is an optional plugin.<br />
+Free <a href='http://www.hire-experts.com/social-engine/likes-plugin' target='_blank'>Likes plugin</a> - if you would like to have attractive likes, sharing options, bunch of useful widgets(`Members Like This`,`Likes`, etc). Note: it is an optional plugin.<br />
+<a href='http://www.hire-experts.com/social-engine/suggestion-recommendation-plugin' target='_blank'>Suggestion/Recommendation plugin</a> - if you would like to have great suggestion and recommendation tools which are based on social graph and personal interests. It is simple tool to increase interaction on your site. Note: it is an optional plugin.<br />
+<a href='http://www.hire-experts.com/social-engine/rates-plugin' target='_blank'>Rates plugin</a> - if you would like to provide rating and reviews option to your members. Note: it is an optional plugin.<br /><br />"
+
+"MOBILE_Page Not Found";"Page Not Found"
+"MOBILE_The page you have attempted to access could not be found.";"The page you have attempted to access could not be found."
+
+"MOBILE_Item votes"; "Item votes"
+"MOBILE_SHOW"; "Show:"
+"MOBILE_RETURN_BACK"; "Go back"
+"MOBILE_NO_ITEMS"; "No Items"
+"MOBILE_FRIEND_TAB"; "Friends"
+"MOBILE_SHOW_RATE_BROWSE"; "Show rating on browse pages?"
+"MOBILE_SHOW_RATE_WIDGET"; "Show rate widget on page view?"
+"MOBILE_SHOW_RATE_BROWSE_LABEL"; "Yes, Enabled"
+"MOBILE_SHOW_RATE_WIDGET_LABEL"; "Yes, Enabled"
+"MOBILE_PLUGIN_SETTINGS"; "Settings"
+"MOBILE_Your changes have been saved."; "Your changes have been saved."
+"MOBILE_SETTING_TITLE"; "Global Settings"
+"MOBILE_SETTING_DESCRIPTION"; "These settings affect all members in your community."
+"MOBILE_PAGE_NOTE"; "Note"
+"MOBILE_PAGE_NOTE_SUCCESS"; "You successfly posted note"
+"MOBILE_PAGE_POST_SUBMIT"; "Post Note"
+"MOBILE_PAGE_EVENT_MEMBERS"; "Members: "
+"MOBILE_PAGE_EVENT_MEMBERS_ATTENDING"; "Attending"
+"MOBILE_PAGE_EVENT_MEMBERS_MAYBE_ATTENDING"; "Maybe Attending"
+"MOBILE_PAGE_EVENT_MEMBERS_NOT_ATTENDING"; "Not Attending"
+"MOBILE_PAGE_EVENT_MEMBERS_WAITING"; "Waitings"
+
+"MOBILE_PAGE_ALBUMS"; "Albums"
+"MOBILE_PAGE_DISCUSSION"; "Discussion"
+"MOBILE_PAGE_BLOGS"; "Blogs"
+"MOBILE_PAGE_EVENTS"; "Events"
+"MOBILE_PAGE_REVIEWS"; "Reviews"
+
+"MOBILE_Dashboard"; "Dashboard"
+"MOBILE_What's on your mind?"; "What's on your mind?"
+"MOBILE_MENU_EDITOR"; "Menu Editor"
+"MOBILE_CHANGE_LANGUAGE"; "Change"
+"MOBILE_Confirm"; "Confirm"
+"MOBILE_PAGEDISCUSSION_NOTOPIC_CREATE"; "Be the first to <a href='%1$s'>post</a> one!"
+"MOBILE_Page %1$s of %2$s"; "Page %1$s of %2$s"
+"MOBILE_Go to back"; "Go to back"
+"Suggest To Friends"; "Suggest To Friends"
+"Suggest"; "Suggest"
+"MOBILE_You have successfully RSVPed to this event."; "You have successfully RSVPed to this event."
+"MOBILE_Item successfully has been shared"; "Item successfully has been shared"
+"MOBILE_%1$s's Review"; "%1$s's Review"
+
+"MOBILE_PAGE_PAYMENT_NOT_SUPPORTED"; "Payment not supported in mobile version. Please use full site version to continue"
+"MOBILE_LOGIN_DESCRIPTION"; "If you already have an account, please enter your details below."
+"HE - Mobile";"HE - Mobile"
+"MOBILE_NOT_INTEGRATED_PAGE";"This page is not yet integrated in Mobile version of the site and may work unstable"
+"MOBILE_ADMINS_VIEW_ONLY_MESS";" (this message is shown to administrators only)"
