@@ -1,1 +1,0 @@
-ALTER TABLE `engine4_core_pages` ADD `search` tinyint(1) NOT NULL default 0;
