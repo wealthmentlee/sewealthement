@@ -188,6 +188,7 @@
 .he_contacts .contacts .item:hover{
   text-decoration: none;
   +foreground;
+  padding: 0;
   +rounded(3px);
 }
 
@@ -520,9 +521,9 @@
 }
 
 .he_friends_widget{
-  padding: 3px;
   +foreground;
   +rounded;
+  padding: 3px;
 }
 
 .he_friends_widget .he_widget_header{
@@ -1110,4 +1111,17 @@ html[dir="rtl"] .he_contacts .contacts .photo {
 
 html[dir="rtl"] .he_contacts .contacts .name {
   text-align: right;
+}
+.HeCubeView li{
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.2);
+  float: left;
+  height: 350px;
+  margin: 10px 16px 20px 3px;
+  width: 31%;
+  +rounded;
+  background-color: $theme_input_background_color;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
 }

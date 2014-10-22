@@ -528,7 +528,20 @@ foreach ($actions as $action): // (goes to the end of the file)
             <?php echo $this->htmlLink('javascript:void(0);', $this->translate('Like'), array('class' => 'action-like')) ?>
           </li>
         <?php endif; ?>
-
+		
+		
+		<?php if ($wealthApi->isFollowed($action->action_id,$this->viewer())): ?>
+          <li class="feed_item_option_unfollow">
+              <span>·</span>
+            <?php echo $this->htmlLink('javascript:void(0);', $this->translate('Unfollow'), array('class' => 'action-unfollow')) ?>
+          </li>
+        <?php else: ?>
+          <li class="feed_item_option_follow">
+              <span>·</span>
+            <?php echo $this->htmlLink('javascript:void(0);', $this->translate('Follow'), array('class' => 'action-follow')) ?>
+          </li>
+        <?php endif; ?>
+		
         <?php if (Engine_Api::_()->getApi('settings', 'core')->core_spam_comment): // Comments - likes ?>
           <li class="feed_item_option_comment">
             <span>&#183;</span>

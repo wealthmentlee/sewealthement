@@ -1,0 +1,346 @@
+/* page-component common { */
+.page-component {
+  clear: both;
+}
+
+/* } page-component common */
+
+.profile_fields {
+  clear: left;
+}
+
+/* JQM Style Customizations */
+textarea.ui-input-text {
+  width: 97% !important;
+  margin-top: 15px;
+}
+
+body .ui-field-contain .ui-controlgroup-controls {
+  width: 100%;
+}
+
+body .ui-li-desc,
+body .ui-li-heading {
+  overflow: visible;
+  text-overflow: clip;
+  white-space: normal;
+}
+
+body textarea.ui-input-text {
+  height: 100px;
+}
+.ui-icon,
+.ui-icon-searchfield:after {
+  display: inline-flex;
+}
+/* JQM Style Customizations */
+
+/* forms { */
+/*form.global_form_box.filter_form .form-elements .form-wrapper {*/
+/*display: none;*/
+/*}*/
+form.global_form_box.filter_form .form-elements #search-wrapper {
+  display: block;
+}
+
+form.global_form_box.filter_form .form-elements .form-label {
+  display: none;
+}
+
+form .form-wrapper > fieldset {
+  text-align: center;
+}
+#captcha-label + dd {
+  margin: 0;
+}
+#captcha-label + dd pre {
+  font-size: 6px;
+}
+/* } forms */
+/* Popup overlay position*/
+body .ui-popup-screen {
+  position: fixed;
+}
+
+/* loading icon */
+.ui-icon.ui-icon-loading {
+  /*background: url(../images/ajax-loader.gif);*/
+  /*background-size: 46px 46px;*/
+}
+
+/*Initial Page */
+#initial_page {
+  left: 0;
+}
+
+#initial_page img.site-logo {
+  display: block;
+  margin: 2em auto 0;
+  height: 100px;
+  max-width: 100%;
+  width: auto;
+  border-radius: 2px;
+
+}
+
+#initial_page .site-title {
+  -moz-animation: textshine 3s infinite linear;
+  -webkit-animation: textshine 3s infinite linear;
+}
+
+#initial_page > h4,
+#initial_page .site-title,
+#initial_page .site-description {
+  text-align: center;
+}
+
+#initial_page .site-description {
+  display: block;
+}
+
+#initial_page .ui-grid-d > div  .ui-bar {
+  height: 0;
+  margin: 0 3px;
+}
+
+#initial_page .progress-bar {
+  width: 50%;
+  margin: 0 auto;
+}
+/*Initial Page */
+
+/* Error Page Styles { */
+.bad-response-error .ui-controlgroup-horizontal .ui-controlgroup-controls {
+  display: block;
+}
+
+.bad-response-error .ui-controlgroup-horizontal .ui-btn {
+  width: 49%;
+}
+
+/* } Error Page Styles */
+
+/* File chooser { */
+.file-selector .file-view-format {
+  text-align: center;
+}
+
+.file-selector .ui-content .file-view {
+  display: none;
+}
+
+.file-selector .ui-content.entry-browser-template {
+  display: none;
+}
+
+.file-selector .ui-content .file-view.active {
+  display: block;
+}
+
+.file-selector .ui-content .file-view.tiles .tile {
+  background-color: transparent;
+  background-position: center center;
+  background-size: cover;
+  line-height: 80px;
+  height: 100px;
+  margin: 3px;
+}
+
+.file-selector .ui-content .file-view.tiles .tile .ui-btn-inner {
+  font-size: 12px;
+}
+
+.file-selector .ui-content .file-view.tiles .tile.folder {
+  background-image: url("../images/folder.png");
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  border: medium none;
+  height: 102px;
+  line-height: 12px;
+}
+
+.file-selector .ui-content .file-view.tiles .tile.folder .ui-btn-inner {
+  padding-top: 76px;
+}
+
+.file-selector .ui-content .file-view.tiles .tile.file {
+}
+
+.file-selector .ui-content .file-view.tiles .tile.photo {
+
+}
+
+/* } File chooser */
+
+/* File Uploader  {*/
+.file-upload-selector .fileTpl,
+.file-upload-selector .ui-btn.upload-done,
+.file-upload-selector .proceeded-files,
+.file-upload-selector .failed-files,
+.file-upload-selector .do-upload.no-files,
+.file-upload-selector .files-to-upload.no-files {
+  display: none;
+}
+
+.file-upload-selector .clear-files a,
+.file-upload-selector .re-upload a {
+  text-align: center;
+}
+
+.file-upload-selector .status {
+  text-transform: uppercase;
+}
+
+.file-upload-selector .ui-collapsible-set {
+  margin: 0;
+}
+
+.file-upload-selector .ui-collapsible-heading .ui-btn-inner, .ui-collapsible-heading .ui-btn-icon-left .ui-btn-inner,
+.file-upload-selector .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.file-upload-selector .ui-listview .ui-li-icon {
+  left: 1px;
+  top: 0;
+  max-height: 42px;
+  max-width: 42px;
+  margin-top: -4px;
+}
+.file-upload-selector .ui-icon{
+
+}
+
+.file-upload-selector .ui-li-has-icon .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-icon {
+  padding-left: 53px;
+}
+
+/* } File Uploader */
+
+/*hide empty footers*/
+.ui-footer:empty {
+  display: none;
+}
+.ui-content * + .ui-listview-filter {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* Smooth Scroll only  for pages {*/
+.smooth-scroll {
+  /*height: 100% !important;*/
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+/* } Smooth Scroll */
+
+body .ui-navbar li .ui-btn .ui-btn-inner{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.popover-toolbar .popover-title {
+  color: #FFFFFF;
+  font-size: 16px;
+  height: 20px;
+  margin: 0;
+  overflow: hidden;
+  padding: 3px 0 5px;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.popover-toolbar .left-btn {
+  float: left;
+
+}
+.popover-toolbar .popover-btn  {
+  background: rgb(109,112,131); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(109,112,131,1) 0%, rgba(24,33,66,1) 50%, rgba(0,8,44,1) 50%, rgba(0,6,35,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(109,112,131,1)), color-stop(50%,rgba(24,33,66,1)), color-stop(50%,rgba(0,8,44,1)), color-stop(100%,rgba(0,6,35,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(109,112,131,1) 0%,rgba(24,33,66,1) 50%,rgba(0,8,44,1) 50%,rgba(0,6,35,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(109,112,131,1) 0%,rgba(24,33,66,1) 50%,rgba(0,8,44,1) 50%,rgba(0,6,35,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(109,112,131,1) 0%,rgba(24,33,66,1) 50%,rgba(0,8,44,1) 50%,rgba(0,6,35,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(109,112,131,1) 0%,rgba(24,33,66,1) 50%,rgba(0,8,44,1) 50%,rgba(0,6,35,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6d7083', endColorstr='#000623',GradientType=0 ); /* IE6-9 */
+  border-color: #1E222B #1F273E #29334C #152036;
+  border-radius: 4px 4px 4px 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 0 #61656E inset;
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 5px;
+}
+.popover-toolbar .right-btn {
+  float: right;
+}
+.popover-toolbar {
+  font-family: helvetica;
+  clear: right;
+  padding: 0 0 3px;
+}
+.ui-page-hide{
+  display: none !important;
+}
+.he-ticket-desc{
+    float: left
+}
+.he-ticket-desc a{
+    text-decoration: none;
+}
+.he-ticket-img{
+    float: left;
+    margin: 10px
+}
+.he-ticket-img img{
+    width: 150px
+}
+.component-heEventCover .cover_photo_wrapper {
+    background: none repeat scroll 0 0 rgb(255, 255, 255);
+    margin: 0 -10px;
+    max-height: 315px;
+    min-height: 73px;
+}
+#social_login-element .ui-icon {
+  border-radius: 30px;
+  color: #fff;
+  display: inline-block;
+  font-size: 30px;
+  line-height: 51px;
+  margin: 0 10px;
+  text-align: center;
+  width: 51px;
+}
+#social_login-element {
+  text-align: center;
+}
+#fb-connect {
+    background-color: #354f88;
+}
+#tw-connect {
+  background-color: #45b0e3;
+}
+#user_auth_login_rewrite center {
+  margin-bottom: 40px;
+}
+#user_auth_login_rewrite .site-logo{
+  max-width: 100%;
+}
+#user_form_login #social_login-label,
+#user_form_login #forgot-label,
+#user_form_login #submit-label,
+#user_form_login #signup-label {
+  display: none;
+}
+#fieldset-buttons .form-wrapper {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+}
+#fieldset-buttons #forgot-element {
+  padding-right: 5px;
+}
+#fieldset-buttons #signup-element {
+  padding-left: 5px;
+}

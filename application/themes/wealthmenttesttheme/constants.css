@@ -93,10 +93,10 @@ DEFAULT STYLES FOR THIS THEME
   theme_input_background_color: #fff;
   theme_input_font_color: #555;
   theme_input_border_colors: #999 #ccc #ccc #999;
-  theme_button_background_color: #8cc73d;
-  theme_button_background_color_hover: #aacc7c;
+  theme_button_background_color: #6296ff;
+  theme_button_background_color_hover: #7eb6d5;
   theme_button_background_color_active: #4e8aab;
-  theme_button_font_color: #fff;
+  theme_button_font_color: #ddd;
   theme_button_border_color: #50809b;
 
   /*
@@ -122,7 +122,7 @@ DEFAULT STYLES FOR THIS THEME
   theme_buttontabs_font_color: #999;
   theme_buttontabs_font_color_hover: #444;
   theme_buttontabs_font_color_active: #444;
-  theme_buttontabs_background_color: #fff;
+  theme_buttontabs_background_color: #333;
   theme_buttontabs_background_color_hover: transparent;
   theme_buttontabs_background_color_active: transparent;
 
@@ -286,6 +286,7 @@ classes throughout the stylesheet.
   -ms-user-select: none;
   user-select: none;
 }
+
 
 
 

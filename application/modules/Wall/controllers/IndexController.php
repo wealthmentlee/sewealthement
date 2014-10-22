@@ -639,6 +639,19 @@ class Wall_IndexController extends Core_Controller_Action_Standard
         }
       }
 
+	  // Add a notification for all users that followed post
+      // @todo we should probably limit this
+      $wealthApi = Engine_Api::_()->wealthment();
+      foreach( $wealthApi->getAllFollowers($action->action_id) as $notifyUser )
+      {
+        if( $notifyUser->getIdentity() != $viewer->getIdentity() && $notifyUser->getIdentity() != $actionOwner->getIdentity() )
+        {
+          $notifyApi->addNotification($notifyUser, $viewer, $action, 'post_follow', array(
+            'label' => 'post'
+          ));
+        }
+      }
+	  
       // Stats
       Engine_Api::_()->getDbtable('statistics', 'core')->increment('core.comments');
 

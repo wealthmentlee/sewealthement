@@ -3,7 +3,7 @@
 --
 
 INSERT IGNORE INTO `engine4_core_modules` (`name`, `title`, `description`, `version`, `enabled`, `type`) VALUES
-('hecore', 'Hire-Experts Core Module', 'Hire-Experts Core Module', '4.2.0p9', 1, 'extra');
+('hecore', 'Hire-Experts Core Module', 'Hire-Experts Core Module', '4.2.2', 1, 'extra');
 
 CREATE TABLE IF NOT EXISTS `engine4_hecore_modules` (
   `module_id` INT(10) NOT NULL AUTO_INCREMENT,

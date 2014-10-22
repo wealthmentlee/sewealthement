@@ -2963,7 +2963,47 @@ if(!window.Wall){
                 });
 
             });
+			
+			/*
+             *  code by Gitesh Dang - follow - unfollow
+             */
+            // Action Follow
+            $container.getElements('.action-follow').addEvent('click', function (){
 
+                var element = Wall.getActionInfo(this);
+                var data = {
+                    'action_id': element.action_id
+                };
+
+                Wall.request(en4.core.baseUrl + 'wealthment/index/follow/subject/' + self.options.subject_guid, data, function (obj){
+                    if (obj.status){
+                        element.action.set('html', obj.body);
+                        self.initAction(element.action);
+                    }
+                });
+
+            });
+
+            // Action UnFollow
+            $container.getElements('.action-unfollow').addEvent('click', function (){
+
+                var element = Wall.getActionInfo(this);
+
+                var data = {
+                    'action_id': element.action_id
+                };
+
+                Wall.request(en4.core.baseUrl + 'wealthment/index/unfollow/subject/' + self.options.subject_guid, data, function (obj){
+                    if (obj.status){
+                        element.action.set('html', obj.body);
+                        self.initAction(element.action);
+                    }
+                });
+
+            });
+            
+            // Code ends Gitesh Dang 
+			
             $container.getElements('.wall-comment-form textarea').each(function (item){
                 $(item).autogrow();
             });

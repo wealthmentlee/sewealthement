@@ -55,6 +55,13 @@ $data = array(
     'type' => 'widget',
     'name' => 'wealthment.search-feed',
   ),
+  array(
+    'title' => 'Wealthment - Follow Feeds',
+    'description' => 'Displays the activity feed according to follows.',
+    'category' => 'Wealthment',
+    'type' => 'widget',
+    'name' => 'wealthment.followfeed',
+  ),
 );
   
 

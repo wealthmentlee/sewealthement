@@ -1,0 +1,895 @@
+/* Attention!!! Don't delete this code */
+#configure_css {
+  display: none !important; /* Really important! */
+}
+
+/* Attention!!! Don't delete this code */
+
+/* Touch home */
+.admin_home_left {
+  overflow: hidden;
+  float: left;
+  margin-right: 20px;
+  width: 300px;
+}
+
+.apptouch.admin_home_left,
+.apptouch.admin_home_right {
+  width: 200px;
+}
+
+div.apptouch.admin_layoutbox {
+  width: auto;
+}
+
+html[dir="rtl"] .admin_home_left {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+.apptouch_admin_home_dashboard ul.admin_home_dashboard_links > li {
+  width: 50%;
+}
+
+.apptouch_admin_home_dashboard ul.admin_home_dashboard_links > li ul {
+  padding-right: 5px;
+}
+
+.apptouch_admin_home_dashboard ul.admin_home_dashboard_links > li li {
+  padding: 0;
+  padding-left: 7px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  -moz-transition: background-color 0.5s ease-in 0s;
+  -webkit-transition: background-color 0.5s ease-in 0s;
+  -o-transition: background-color 0.5s ease-in 0s;
+}
+
+.apptouch_admin_home_dashboard ul.admin_home_dashboard_links > li li:hover {
+  background-color: #C3DEEC;
+}
+
+.apptouch_admin_home_dashboard ul.admin_home_dashboard_links > li li a:hover {
+  text-decoration: none;
+
+}
+
+.apptouch_admin_home_dashboard ul.admin_home_dashboard_links > li li a {
+  display: block;
+  font-size: 1.2em;
+  line-height: 28px;
+  padding: 8px 7px 9px 40px;
+  background-position: left;
+}
+
+/* Dashboard icons { */
+.apptouch_admin_home_dashboard ul.admin_home_dashboard_links > li li a.apptouch_links_layout {
+  background-image: url(~/application/modules/Apptouch/externals/images/admin/layout_edit.png);
+}
+
+.apptouch_admin_home_dashboard ul.admin_home_dashboard_links > li li a.apptouch_links_themes {
+  background-image: url(~/application/modules/Apptouch/externals/images/admin/themes_edit.png);
+}
+
+.apptouch_admin_home_dashboard ul.admin_home_dashboard_links > li li a.apptouch_links_menus {
+  background-image: url(~/application/modules/Apptouch/externals/images/admin/menus_edit.png);
+}
+
+.apptouch_admin_home_dashboard ul.admin_home_dashboard_links > li li a.apptouch_links_stats {
+  background-image: url(~/application/modules/Apptouch/externals/images/admin/stats.png);
+}
+
+.apptouch_admin_home_dashboard ul.admin_home_dashboard_links > li li a.apptouch_links_performance {
+  background-image: url(~/application/modules/Apptouch/externals/images/admin/performance_settings.png);
+}
+
+.apptouch_admin_home_dashboard ul.admin_home_dashboard_links > li li a.apptouch_links_getstarted {
+  background-image: url(~/application/modules/Apptouch/externals/images/admin/get_started.png);
+}
+
+.apptouch_admin_home_dashboard ul.admin_home_dashboard_links > li li a.apptouch_links_more_he_plugins {
+  background-image: url(~/application/modules/Apptouch/externals/images/admin/he_more.png);
+}
+
+.layout_apptouch_admin_main_menu h2 {
+  background-image: url(~/application/modules/Apptouch/externals/images/admin/iphone.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 35px;
+  line-height: 35px;
+}
+
+/* } Dashboard icons */
+
+/* Touch Admin TootTips { */
+.png {
+  position: relative;
+}
+
+.tooltip {
+  outline: none;
+  cursor: help;
+  text-decoration: none;
+  position: relative;
+}
+
+.tooltip span {
+  margin-left: -999em;
+  position: absolute;
+}
+
+.tooltip:hover span {
+  border-radius: 5px 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 2em;
+  z-index: 99;
+  margin-left: 0;
+  width: 250px;
+  text-transform: none;
+
+}
+
+.tooltip:hover span.left {
+  left: 1em;
+}
+
+.tooltip:hover span.right {
+  right: 1em;
+}
+
+.tooltip:hover span.top {
+
+}
+
+.tooltip:hover span.bottom {
+
+}
+
+.tooltip:hover img {
+  border: 0;
+  margin: -10px 0 0 -55px;
+  float: left;
+  position: absolute;
+}
+
+.tooltip:hover em {
+  font-size: 1.1em;
+  font-weight: bold;
+  display: block;
+  padding: 0.2em 0 0.6em 0;
+}
+
+.classic {
+  padding: 0.8em 1em;
+}
+
+.custom {
+  padding: 0.5em 0.8em 0.8em 2em;
+}
+
+* html a:hover {
+  background: transparent;
+}
+
+.classic {
+  background: #FFFFAA;
+  border: 1px solid #FFAD33;
+}
+
+.critical {
+  background: #FFCCAA;
+  border: 1px solid #FF3334;
+}
+
+.help {
+  background: #9FDAEE;
+  border: 1px solid #2BB0D7;
+}
+
+.info {
+  background-color: #E6EFC2;
+  border: 1px solid #C6D880;
+  color: #529214;
+}
+
+.warning {
+  background: #FFFFAA;
+  border: 1px solid #FFAD33;
+}
+
+/* } Touch Admin TootTips */
+/* Touch home */
+/* Menu styles { */
+
+.tabs ul li:hover a {
+  background-color: #FFFFFF;
+  border-color: #CCCCCC #CCCCCC -moz-use-text-color;
+  border-image: none;
+  border-style: solid solid none;
+  border-top-left-radius: 2px !important;
+  border-top-right-radius: 2px !important;
+  border-width: 1px 1px medium;
+  color: #444444;
+  padding: 7px 6px !important;
+}
+.tabs ul li.active a{
+  padding: 0.5em 1em !important;
+}
+.layout_apptouch_admin_main_menu .tabs ul.navigation li {
+  position: relative;
+}
+
+.layout_apptouch_admin_main_menu ul ul {
+  left: 0;
+  margin: 5px 0 0;
+  min-width: 120px;
+  padding: 0;
+  position: absolute;
+  display: none;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  border-top-color: transparent;
+  border-radius: 0 0 2px 2px;
+  padding-bottom: 4px;
+  background-color: #fff;
+  z-index: 999999;
+}
+
+.layout_apptouch_admin_main_menu ul.navigation > li:hover ul {
+  display: block;
+}
+
+.layout_apptouch_admin_main_menu ul ul li {
+  display: block;
+}
+
+/*.layout_apptouch_admin_main_menu ul ul li:hover {*/
+/*background-color: #97BBD1;*/
+/*}*/
+
+.layout_apptouch_admin_main_menu ul.navigation ul li a {
+  display: block;
+  font-weight: bold;
+  letter-spacing: 0;
+  outline: medium none;
+  padding: 5px 7px;
+  text-decoration: none;
+  border: none;
+  border-radius: 0;
+  color: #888;
+  white-space: nowrap;
+
+}
+
+.layout_apptouch_admin_main_menu ul.navigation ul li:hover a {
+  color: #444;
+  background-color: #F5F5F5;
+}
+
+/* } Menu styles */
+/* Home Screen Styles { */
+#EditHomeScreen #preview-thumbnail img {
+  display: block;
+  float: left;
+  opacity: 1;
+  overflow: hidden;
+  position: relative;
+  visibility: visible;
+  border-radius: 9px;
+  left: 2px;
+  top: 2px;
+}
+
+#EditHomeScreen div.preview-thumbnail {
+  width: 59px;
+  height: 60px;
+  border: none;
+  position: relative;
+  overflow: hidden;
+}
+
+#EditHomeScreen div.preview-thumbnail div.hs_mask {
+  position: absolute;
+  width: 59px;
+  height: 60px;
+  opacity: 0.5;
+  background-image: url(~/application/modules/Apptouch/externals/images/admin/hs_mask.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* } Home Screen Styles */
+
+/* Form Styles { */
+#global_page_apptouch-admin-settings-app-icon-set .settings form,
+#global_page_apptouch-admin-settings-index .settings form,
+#global_page_apptouch-admin-settings-performance .settings form,
+#global_page_apptouch-admin-plugin-settings-index .settings form,
+#global_page_apptouch-admin-layout-index .settings form
+{
+  float: none;
+}
+
+#global_page_apptouch-admin-layout-index .settings .form-label
+{
+  width: 300px;
+}
+
+#global_page_apptouch-admin-layout-index .settings .form-description
+{
+  max-width: 700px;
+}
+
+/* } Form Styles */
+
+/* Menu Editor Styles  {*/
+#global_page_apptouch-admin-menus-index .admin_menus_items .item_wrapper {
++ rounded ( 2 px );
+  padding: 3px;
+  width: 350px
+}
+
+.admin_menus_items .item_divider
+{
+  display: block;
+  float: left;
+  clear: both;
+  width: 350px;
++rounded;
+  border: 1px solid #c1d6e1;
+  overflow: hidden;
+  background-color: #5E87B0;
+  color: #ffffff;
+  padding: 0 3px;
+}
+.admin_menus_item.disabled {
+  color: #BBBBBB;
+}
+.admin_menus_items .disabled .item_divider
+{
+  background-color: 	#666666;
+  border: 1px solid #444;
+  color: #ffffff;
+}
+.admin_menus_items .item_divider .item_label{
+  text-transform: uppercase;
+}
+html[dir="rtl"] .admin_menus_items .item_divider
+{
+  float: right;
+}
+
+.admin_menus_items .item_divider a
+{
+  color: #ffffff;
+}
+
+#global_page_apptouch-admin-menus-index .admin_menus_items > li {
+  margin-bottom: 3px;
+}
+.admin_menus_items .switcher .on {
+  background-color: #5BA1CD;
+  border-radius: 2px 2px 2px 2px;
+  color: #FFFFFF;
+  display: block;
+  height: 10px;
+  line-height: 12px;
+  width: 20px;
+}
+.admin_menus_items .disabled .switcher .off {
+  background-color: #999999;
+  border-radius: 2px 2px 2px 2px;
+  color: #FFFFFF;
+  display: block;
+  height: 10px;
+  line-height: 12px;
+  margin-top: 18px;
+  width: 20px;
+}
+.admin_menus_items .disabled .switcher .on,
+.admin_menus_items .switcher .off {
+  display: none;
+}
+.admin_menus_items .switcher {
+  background-color: #DDDDDD;
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: 0 0 1px #666666 inset;
+  cursor: pointer;
+  float: right;
+  font-size: 9px;
+  height: 28px;
+  text-align: center;
+  width: 20px;
+}
+.apptouch_edit_menuitems option {
+  margin-bottom: 3px;
+}
+.apptouch_menu_editor_icons {
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+  margin-bottom: -4px;
+  /*font-family: FontAwesome;*/
+}
+
+/* first row */
+.ui-icon-0 {
+  background-position: -18px 0px;
+}
+
+.ui-icon-plus {
+  background-position: -0 -0;
+}
+
+.ui-icon-minus {
+  background-position: -36px -0;
+}
+
+.ui-icon-delete {
+  background-position: -72px -0;
+}
+
+.ui-icon-arrow-r {
+  background-position: -108px -0;
+}
+
+.ui-icon-arrow-l {
+  background-position: -144px -0;
+}
+
+.ui-icon-arrow-u {
+  background-position: -180px -0;
+}
+
+.ui-icon-arrow-d {
+  background-position: -216px -0;
+}
+
+.ui-icon-check {
+  background-position: -252px -0;
+}
+
+.ui-icon-gear {
+  background-position: -288px -0;
+}
+
+.ui-icon-refresh {
+  background-position: -324px -0;
+}
+
+.ui-icon-forward {
+  background-position: -360px -0;
+}
+
+.ui-icon-back {
+  background-position: -396px -0;
+}
+
+.ui-icon-grid {
+  background-position: -432px -0;
+}
+
+.ui-icon-star {
+  background-position: -468px -0;
+}
+
+.ui-icon-alert {
+  background-position: -504px -0;
+}
+
+.ui-icon-info {
+  background-position: -540px -0;
+}
+
+.ui-icon-home {
+  background-position: -576px -0;
+}
+
+.ui-icon-search, .ui-icon-searchfield:after {
+  background-position: -612px -0;
+}
+
+.ui-icon-checkbox-off {
+  background-position: -684px -0;
+}
+
+.ui-icon-checkbox-on {
+  background-position: -648px -0;
+}
+
+.ui-icon-radio-off {
+  background-position: -756px -0;
+}
+
+.ui-icon-radio-on {
+  background-position: -718px -0;
+}
+
+/* begin icon pack definitions */
+/* second row */
+.ui-icon-email {
+  background-position: -0 -18px;
+}
+
+.ui-icon-page {
+  background-position: -36px -18px;
+}
+
+.ui-icon-question {
+  background-position: -72px -18px;
+}
+
+.ui-icon-foursquare {
+  background-position: -108px -18px;
+}
+
+.ui-icon-twitter {
+  background-position: -144px -18px;
+}
+
+.ui-icon-facebook {
+  background-position: -180px -18px;
+}
+
+.ui-icon-dollar {
+  background-position: -216px -18px;
+}
+
+.ui-icon-euro {
+  background-position: -252px -18px;
+}
+
+.ui-icon-pound {
+  background-position: -288px -18px;
+}
+
+.ui-icon-apple {
+  background-position: -324px -18px;
+}
+
+.ui-icon-chat {
+  background-position: -360px -18px;
+}
+
+.ui-icon-trash {
+  background-position: -396px -18px;
+}
+
+.ui-icon-bell {
+  background-position: -432px -18px;
+}
+
+.ui-icon-mappin {
+  background-position: -468px -18px;
+}
+
+.ui-icon-direction {
+  background-position: -504px -18px;
+}
+
+.ui-icon-heart {
+  background-position: -540px -18px;
+}
+
+.ui-icon-wrench {
+  background-position: -576px -18px;
+}
+
+.ui-icon-play {
+  background-position: -612px -18px;
+}
+
+.ui-icon-pause {
+  background-position: -648px -18px;
+}
+
+.ui-icon-stop {
+  background-position: -684px -18px;
+}
+
+.ui-icon-person {
+  background-position: -720px -18px;
+}
+
+.ui-icon-music {
+  background-position: -756px -18px;
+}
+
+/* third row */
+.ui-icon-rss {
+  background-position: -0 -36px;
+}
+
+.ui-icon-wifi {
+  background-position: -36px -36px;
+}
+
+.ui-icon-phone {
+  background-position: -72px -36px;
+}
+
+.ui-icon-power {
+  background-position: -108px -36px;
+}
+
+.ui-icon-lock {
+  background-position: -144px -36px;
+}
+
+.ui-icon-flag {
+  background-position: -180px -36px;
+}
+
+.ui-icon-calendar {
+  background-position: -216px -36px;
+}
+
+.ui-icon-lightning {
+  background-position: -252px -36px;
+}
+
+.ui-icon-drink {
+  background-position: -288px -36px;
+}
+
+.ui-icon-android {
+  background-position: -324px -36px;
+}
+
+.ui-icon-edit {
+   background-position: -360px -36px;
+ }
+
+/* } Menu Editor Styles */
+/* Stats Widget { */
+.app_not_installed, .tablet_not_installed {
+    color: #EE4400;
+}
+.app_installed, .tablet_installed {
+    color: #42A932;
+}
+.app_disabled, .tablet_disabled {
+    color: #AAAAAA;
+}
+/* } Stats Widget */
+#EditSiteLogo .form-label {
+  width: 130px;
+}
+.settings div.form-element .site-logo {
+  border-radius: 2px 2px 2px 2px;
+  height: 100px;
+}
+
+
+body .layout_core_menu_footer a {
+  border: medium none;
+  display: inline;
+}
+
+.new-feature-item:after {
+  background-color: red;
+  border-radius: 2px 2px 2px 2px;
+  color: #FFFFFF;
+  content: "NEW";
+  display: inline-block;
+  font-size: 8px;
+  line-height: 8px;
+  margin-left: 4px;
+  margin-top: 0;
+  padding: 2px;
+}
+
+.block-col-2 > * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 50%;
+  float: left;
+  margin: 0 !important;
+}
+.content-shape-wrapper-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+.content-shape-wrapper {
+  border: 1px solid #CCCCCC;
+  border-radius: 2px 2px 2px 2px;
+  height: 640px;
+  overflow-y: auto;
+}
+.content-body {
+  height: 640px;
+}
+.content-toolbar {
+  background-color: #555555;
+  color: #AAAAAA;
+  font-size: 24px;
+  padding: 11px;
+  text-align: center;
+}
+.content-body {
+  background-color: #F5F5F5;
+  font-size: 28px;
+  height: 640px;
+  line-height: 640px;
+  text-align: center;
+}
+.content-shape > .content-adv {
+  position: static;
+
+}
+.content-adv {
+  background-color: yellow;
+  font-size: 28px;
+  line-height: 55px;
+  min-height: 55px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+.content-adv img {
+  display: block;
+}
+.content-adv > a > img {
+  width: 100%;
+}
+.content-adv > a {
+  display: block;
+}
+.content-adv.bottom {
+  bottom: 0;
+  top: auto;
+}
+.block-col-2 textarea {
+  min-width: -moz-available !important;
+  max-width: -moz-available !important;
+  width: auto;
+  max-height: none !important;
+}
+.settings .block-col-2 .form-label {
+  clear: both;
+  float: none;
+  width: auto;
+}
+#anim_type-element li {
+  float: left;
+  width: 33%;
+}
+#position-element li {
+  float: left;
+  width: 50%;
+}
+.block-col-2 .form-options-wrapper label {
+  display: block;
+  line-height: 25px;
+}
+.block-col-2 [type="radio"] {
+  height: 25px
+}
+.block-col-2 #demo-list,
+.block-col-2 #demo-status
+{
+  width: auto;
+}
+#anim_delay-wrapper, #anim_duration-wrapper {
+  clear: none;
+  float: left;
+  width: 50%;
+}
+#anim_delay-element > input, #anim_duration-element > input {
+  width: 30%;
+}
+.block-col-2 #position-wrapper,
+.block-col-2 #fixed-wrapper{
+  clear: none;
+  float: left;
+  width: 50%;
+}
+.settings .block-col-2 .form-wrapper{
+  padding: 8px 0
+}
+.adc-not-selected .form-elements > * + .form-wrapper{
+  display: none !important;
+}
+.adc-not-selected #add_new_camp-wrapper {
+  display: block !important;
+}
+#add_new_camp-wrapper {
+  display: none !important;
+}
+.block-col-2 #preview_html {
+  margin-left: 7px;
+  margin-top: 23px;
+  width: 90px;
+}
+.block-col-2 #name-wrapper {
+  float: left;
+  width: 75%;
+}
+.block-col-2 #preview_html {
+  display: none;
+}
+.block-col-2 .edit-ad #preview_html {
+  display: inline;
+}
+.block-col-2 #adcampaign_id-element > select, .block-col-2 #ad_campaign-element > select, .block-col-2 #name-element > input {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+  padding: 0.5em;
+}
+.settings .block-col-2 .form-element{
+  float: none;
+}
+.edit-ad #submit-wrapper{
+  display: block !important;
+}
+#add_new_adv-label,
+#global_page_apptouch-admin-ads-index .content-adv {
+  display: none;
+}
+.adv-banner{
+  border-radius: 2px 2px 2px 2px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  height: 50px;
+  margin: 10px 3px;
+  background-image: url(~/application/modules/Apptouch/externals/images/admin/banner_icon.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.loader {
+  background-image: url(~/application/modules/Apptouch/externals/images/admin/loader.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.no-adv {
+  background-image: none;
+  color: #AAAAAA;
+  line-height: 50px;
+  font-size: 18px;
+  text-align: center;
+  text-shadow: 0 0 0 #000000;
+}
+.adv-banner > p {
+  float: right;
+  line-height: 50px;
+  margin-right: 10px;
+}
+.adv-banner span {
+  clear: left;
+  display: block;
+  font-weight: bold;
+  padding: 7px 7px 7px 50px;
+}
+#advs-element p a {
+  display: none;
+}
+.apptouch_adcampaign_manage_form_container .search {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-right: 13px;
+  width: 40%;
+}
+.apptouch_adcampaign_manage_form_container .search form > div {
+  float: none;
+}
+.apptouch_adcampaign_manage_form_container .search select {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: none;
+  text-align: center;
+  width: 100%;
+}
+.apptouch_adcampaign_manage_form_container .search select option {
+  text-align: left;
+}

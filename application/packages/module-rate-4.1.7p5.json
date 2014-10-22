@@ -1,0 +1,1524 @@
+{
+  "type": "module",
+  "name": "rate",
+  "version": "4.1.7p5",
+  "revision": null,
+  "path": "application\/modules\/Rate",
+  "repository": null,
+  "date": "Fri, 22 Aug 2014 09:15:33 +0000",
+  "title": "Rate",
+  "description": "Rate Plugin",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "<a href=\"http:\/\/www.hire-experts.com\" title=\"Hire-Experts LLC\" target=\"_blank\">Hire-Experts LLC<\/a>"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Fri, 22 Aug 2014 09:15:33 +0000",
+    "title": "Rate",
+    "description": "Rate Plugin",
+    "developer": null,
+    "authors": [
+      "<a href=\"http:\/\/www.hire-experts.com\" title=\"Hire-Experts LLC\" target=\"_blank\">Hire-Experts LLC<\/a>"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "preinstall",
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": "application\/modules\/Rate\/settings\/install.php",
+    "class": "Rate_Installer",
+    "priority": 100
+  },
+  "dependencies": {
+    "module-core": {
+      "type": "module",
+      "name": "core",
+      "guid": "module-core",
+      "minVersion": "4.1.5",
+      "maxVersion": null,
+      "excludeExcept": null
+    },
+    "module-hecore": {
+      "type": "module",
+      "name": "hecore",
+      "guid": "module-hecore",
+      "minVersion": "4.2.1p1",
+      "maxVersion": null,
+      "excludeExcept": null
+    }
+  },
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Rate": {
+      "type": "directory",
+      "path": "application\/modules\/Rate",
+      "structure": [
+        {
+          "path": "Api",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 5467,
+          "sha1": "bf2797b4e2b6b30dd0f9af202b4e3c4f78c1c07e"
+        },
+        {
+          "path": "Plugin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Menus.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 823,
+          "sha1": "9d3c75139a1b33d5673309c36b40a8f9ea9341be"
+        },
+        {
+          "path": "Plugin\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1919,
+          "sha1": "e7a6b423dba55c0a5d687c450729d4a02f15816a"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-faq",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-faq\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 12012,
+          "sha1": "25d644d92b8db1b7f9720a2782f33cf3bd6bf1cd"
+        },
+        {
+          "path": "views\/scripts\/offer-review",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/offer-review\/view.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1495,
+          "sha1": "31bf631ec2bf78f2d160d5174bea0af2def3803f"
+        },
+        {
+          "path": "views\/scripts\/_album_photos.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1139,
+          "sha1": "5cdcc5ccc7be9dd92e3f48bf4c219f152cfbd200"
+        },
+        {
+          "path": "views\/scripts\/review",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/review\/view.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1893,
+          "sha1": "1c175af5e5d18d9a3bf8705f0d14e9a21043656e"
+        },
+        {
+          "path": "views\/scripts\/admin-settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 777,
+          "sha1": "2c3d445c94c74453a3c73d7083c599366346aed6"
+        },
+        {
+          "path": "views\/scripts\/_jsSwitch.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 6758,
+          "sha1": "42b04841dbaaa4a88281efb095db6095ae7fc36d"
+        },
+        {
+          "path": "views\/scripts\/admin-types",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-types\/create.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 643,
+          "sha1": "c7c95fa3180d71925fe59d3dcce5b1e2a5eea7a6"
+        },
+        {
+          "path": "views\/scripts\/admin-types\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1240,
+          "sha1": "bb9ecf93fc88d6d9082e4b7648a20e14c89141e3"
+        },
+        {
+          "path": "views\/scripts\/admin-level",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-level\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 798,
+          "sha1": "632f9c87f7e21f2d566924ba86cddfb7c1059af3"
+        },
+        {
+          "path": "views\/scripts\/_items.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1571,
+          "sha1": "738a77637d91a32ef711a6dc89ae54a331b21272"
+        },
+        {
+          "path": "views\/scripts\/pagination",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/pagination\/browseReviews.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1407,
+          "sha1": "8a78838b8463b0d55f0feae7ed45518700c5173a"
+        },
+        {
+          "path": "views\/scripts\/review-ajax",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/review-ajax\/pagination.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1513,
+          "sha1": "ecd0c538068a667c359e1d666fcba60615a89596"
+        },
+        {
+          "path": "views\/scripts\/review-ajax\/list.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 3138,
+          "sha1": "7d076b8aa0fc3f261e877fac195327e0363c17fd"
+        },
+        {
+          "path": "views\/scripts\/review-ajax\/edit.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 306,
+          "sha1": "63884d21f1270ec31d600a686ffabc9d06abe023"
+        },
+        {
+          "path": "views\/scripts\/review-ajax\/view.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1690,
+          "sha1": "e1503b496d36c129b164982b1f8d72ebd691ce8d"
+        },
+        {
+          "path": "views\/scripts\/offer-review-ajax",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/offer-review-ajax\/pagination.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1184,
+          "sha1": "4b2706702594b02ac9bc92a25fd1bdea47d2374f"
+        },
+        {
+          "path": "views\/scripts\/offer-review-ajax\/list.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2899,
+          "sha1": "59e7c917da998f81ff8aa9805e47ef87a5834b47"
+        },
+        {
+          "path": "views\/scripts\/offer-review-ajax\/edit.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 306,
+          "sha1": "63884d21f1270ec31d600a686ffabc9d06abe023"
+        },
+        {
+          "path": "views\/scripts\/offer-review-ajax\/view.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1490,
+          "sha1": "ddb3c80655a624681c34fe3856245819eddce93b"
+        },
+        {
+          "path": "views\/scripts\/admin-offer-types",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-offer-types\/create.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 637,
+          "sha1": "1039789b4923761a7fe94ae4f85b11e0296ed008"
+        },
+        {
+          "path": "views\/scripts\/admin-offer-types\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1247,
+          "sha1": "003a7d1f66b80f4ddf4272d9301e52d36538747f"
+        },
+        {
+          "path": "views\/scripts\/_blogs.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1014,
+          "sha1": "48d75277b4f812fd7cb32493b68b589f080f298d"
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2249,
+          "sha1": "6b8f406e405181aee266eac5012d7fcd7a03e611"
+        },
+        {
+          "path": "views\/scripts\/index\/rate.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "views\/scripts\/index\/getratecontainer.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1776,
+          "sha1": "9ad115cd46e19b7665d4573a4621c6c8d1aac784"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1662,
+          "sha1": "e1e25be79bd16c8b7c4ab4e9533bd9afaec6d813"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/Type.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1426,
+          "sha1": "48ed9a0bf27040716a5ada382199e02ec2e52332"
+        },
+        {
+          "path": "Model\/Pagereview.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2908,
+          "sha1": "24669a698e05b4a2721314ace6906329c926a514"
+        },
+        {
+          "path": "Model\/Offerreview.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2400,
+          "sha1": "669b546f307aa47847778c46a440a0f4717fb4d8"
+        },
+        {
+          "path": "Model\/Rate.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 484,
+          "sha1": "c0ea6a9304be217b830bedcc5adfe1bc0b0e29cf"
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/Offerreviews.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2836,
+          "sha1": "e506e6426997e4a71bd0ea7f336241a0f160b718"
+        },
+        {
+          "path": "Model\/DbTable\/Offertypes.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 544,
+          "sha1": "498a54025165c13e6ea66aa2c12c8b51877167d3"
+        },
+        {
+          "path": "Model\/DbTable\/Votes.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2772,
+          "sha1": "9a7f1577f870ccb767b5b6b98b9d9a03123ec4ea"
+        },
+        {
+          "path": "Model\/DbTable\/Rates.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 3459,
+          "sha1": "0283b4c97f1a555be3167881b0d3cf7af9aa1ba8"
+        },
+        {
+          "path": "Model\/DbTable\/Pagereviews.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 5662,
+          "sha1": "790fcda725bb3b10e9096f6837ae8fb1c8f93da5"
+        },
+        {
+          "path": "Model\/DbTable\/Types.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 535,
+          "sha1": "7a3fac0383a2f100bf20b77ba31a5e0a14c4ba46"
+        },
+        {
+          "path": "Model\/Offertype.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1429,
+          "sha1": "8d0b1ea48cbcf0f65036774c440d56882656196e"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Settings.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 14209,
+          "sha1": "1fbb9398626d75e1d9b1ea562f87569ad85bbe9d"
+        },
+        {
+          "path": "Form\/Admin\/Level.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2484,
+          "sha1": "4e5ad07cb164ee1d25cf6a971fdf502e1d48ea5b"
+        },
+        {
+          "path": "Form\/Review",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Review\/Create.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2704,
+          "sha1": "ac1a65779045525e445020ca78303f32e7a049fd"
+        },
+        {
+          "path": "Form\/Review\/TypeEdit.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1132,
+          "sha1": "6fcbb19ab1b97bb0fb530c8edc4175d2eef037a9"
+        },
+        {
+          "path": "Form\/Review\/TypeCreate.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1158,
+          "sha1": "5a737f2f3e3d2bd8dd14eef3af3ef2abee791ca8"
+        },
+        {
+          "path": "Form\/Review\/Edit.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2714,
+          "sha1": "1917a76949613c2b010fd351094521f8f3c0a570"
+        },
+        {
+          "path": "Form\/Review\/Search.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2025,
+          "sha1": "e88a8b30d9c0b7b8689078d530899fd0d21917ae"
+        },
+        {
+          "path": "Form\/OfferReview",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/OfferReview\/Create.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 3048,
+          "sha1": "8b0259e7fb5e6f1daa736767ed163aa0122a2192"
+        },
+        {
+          "path": "Form\/OfferReview\/TypeEdit.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1127,
+          "sha1": "5a1e7155c2f6db75a28f0df4f153df4a296d6479"
+        },
+        {
+          "path": "Form\/OfferReview\/TypeCreate.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1153,
+          "sha1": "c161b527810dd74003fd7117d72c8d1dd66845f6"
+        },
+        {
+          "path": "Form\/OfferReview\/Edit.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 3074,
+          "sha1": "197cc61815e6fe38e9c4b7133720c212a4c1d7fe"
+        },
+        {
+          "path": "Form\/Decorator",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Decorator\/ReviewRate.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1619,
+          "sha1": "d027f4e9f556a2c6d6025ab09a15efb8a6bcd6f6"
+        },
+        {
+          "path": "Form\/Decorator\/TypeTip.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 669,
+          "sha1": "357b7ef0d50577187850a4ca7d7aeca860871c41"
+        },
+        {
+          "path": "Form\/Decorator\/TypeItem.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 952,
+          "sha1": "498a35c046a0e76e5b3239d13deb8df759a82378"
+        },
+        {
+          "path": "Form\/Decorator\/TypeSubmit.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 956,
+          "sha1": "bf660f5ce8e7989db451593843214701fa929a17"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 12928,
+          "sha1": "280a779014ccee32cd917e9b9dc7b691f624df98"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/Review.js",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 11579,
+          "sha1": "7880024e658696bf0fdb7755d182aa058dde2136"
+        },
+        {
+          "path": "externals\/scripts\/Rate.js",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 7469,
+          "sha1": "0a5711708cc9bbf8340e1443e4b8c4db68f17d36"
+        },
+        {
+          "path": "externals\/scripts\/OfferReview.js",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 8631,
+          "sha1": "9f47bc326d3989b37da623656de536b66424e54d"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/rate_stars_small.png",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4700,
+          "sha1": "47194d4dc925fd0fee6fcb0db88e3d2bceb5f283"
+        },
+        {
+          "path": "externals\/images\/delete16.png",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 606,
+          "sha1": "e8b8f8c0c05d6354a4eccd7155e985c1ee92d3a7"
+        },
+        {
+          "path": "externals\/images\/moveup.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 200,
+          "sha1": "eeabde9caa5a61d6df437f6c08b8081e58d9366c"
+        },
+        {
+          "path": "externals\/images\/rate_stars.png",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4469,
+          "sha1": "709da9d3dfd6bfaaa2a5c4b6fa1d7638ebaa87b3"
+        },
+        {
+          "path": "externals\/images\/temp_rate.png",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 716,
+          "sha1": "b7b4cd9c222baf79bc5da58c7fb79b7bbccbba3b"
+        },
+        {
+          "path": "externals\/images\/nophoto_pagereview_thumb_icon.png",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 5020,
+          "sha1": "f0327c00d5cdb0df340264efe15461094f2edca9"
+        },
+        {
+          "path": "externals\/images\/loader.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 723,
+          "sha1": "ba9bbff717ce29176d5cbb283aa25c6aafd32b28"
+        },
+        {
+          "path": "externals\/images\/delete.png",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 655,
+          "sha1": "a54e44499f7b408c6c58c209ed08fa14c07b2b7c"
+        },
+        {
+          "path": "externals\/images\/rate_loader.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 673,
+          "sha1": "a3243ca6a628b77b3523a18aff6bafae85b45adc"
+        },
+        {
+          "path": "externals\/images\/movedown.gif",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 199,
+          "sha1": "64a20a1728f8602a3cf136703851c0503a6bac82"
+        },
+        {
+          "path": "externals\/images\/newreview.png",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 731,
+          "sha1": "0c3d299d73b1f513854aa08959701fd4e71a6ec7"
+        },
+        {
+          "path": "externals\/images\/edit16.png",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 618,
+          "sha1": "31ccb1b272ca4499219c8759be04535779967ff6"
+        },
+        {
+          "path": "View",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "View\/Helper",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "View\/Helper\/ReviewRate.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1310,
+          "sha1": "2d83c91d401363560a92c761f561b1696d635d3a"
+        },
+        {
+          "path": "View\/Helper\/ItemRate.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4910,
+          "sha1": "d479406476bb3ddacf44e0126c20d8bcab324374"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.7-4.1.7p5.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0664",
+          "size": 80,
+          "sha1": "5ef3b2eab4727d40d02d2b6ea5454b4d432f0036"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.3-4.1.4.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 78,
+          "sha1": "be42c6de0d588d34db2e82fc1088f18720615af5"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.7p1-4.1.7p4.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 78,
+          "sha1": "d3f38c976db896caef83a5f6e4493565f970d1b6"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.7-4.1.7p1.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 80,
+          "sha1": "813f39f30c7a7ded54906b2e6219a6a1404b802e"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.5-4.1.6.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 78,
+          "sha1": "68e391349f7109a14ea0746ee952b98bb4b26316"
+        },
+        {
+          "path": "settings\/my-upgrade-4.0.1-4.1.0.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 172,
+          "sha1": "7c31ac6249afe1a2f1b90d1b0773a80fdc2875da"
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 163,
+          "sha1": "ff3481f720827ffeadceeeb13b44a43c28a391de"
+        },
+        {
+          "path": "settings\/widgets.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 683,
+          "sha1": "036e522d729e3d955d8c57f1d8f69414466d094c"
+        },
+        {
+          "path": "settings\/my-upgrade-4.0.0-4.0.1.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2899,
+          "sha1": "ecfe9daf27fac29bfaf632c0b9c2d79e62d607d3"
+        },
+        {
+          "path": "settings\/install.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 5374,
+          "sha1": "1f483115c4a020cfba4a7ed36e41f586b4373fa9"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.7p1-4.1.7p3.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 78,
+          "sha1": "7cb203d7a27d9a9215bdb59eedf7c7c135b6bbe5"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.1-4.1.2.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 172,
+          "sha1": "ae8fb87dbdb2c8829fd5645e115bc08764a6d9c4"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.6-4.1.7.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 78,
+          "sha1": "7490801cc7d83edd9eebc8d2c8ee8433de440b7d"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.2-4.1.3.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 172,
+          "sha1": "23a15d29df91a67262faf7fbeb717203966c1fea"
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4727,
+          "sha1": "7ce36e57d0aa1cbf519fd72dd517cc08688ecc75"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.7p1-4.1.7p2.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 78,
+          "sha1": "e2a4f1c7c039a41cf314702357ec0d7b0ba0a2ff"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.4-4.1.5.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 78,
+          "sha1": "73b1dc5376ad32dd831fb0ad04154580ab41f27f"
+        },
+        {
+          "path": "settings\/my-upgrade-4.1.0-4.1.1.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 172,
+          "sha1": "2e6b1bd37b34bbf7b3c6c31800704080eaea53c5"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 3957,
+          "sha1": "9a8ab21ec025698d79b5542fd9794729cc38a99f"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/ReviewController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 11499,
+          "sha1": "8b3854dc4b6a1a1f988e91d5fefa352380706abd"
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 7874,
+          "sha1": "d1edcd03a8e1d4c56d9401d3a961daeedcef29a2"
+        },
+        {
+          "path": "controllers\/AdminSettingsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1548,
+          "sha1": "a040f872926d4e776ccc417ac9e399401fc47973"
+        },
+        {
+          "path": "controllers\/AdminTypesController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 7115,
+          "sha1": "68ec0fd7a99de1ddb92c99439297bd55ba9c5a69"
+        },
+        {
+          "path": "controllers\/OfferReviewController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 11713,
+          "sha1": "eec04e50ad2ad933798ffc49d6b5864ad465b398"
+        },
+        {
+          "path": "controllers\/AdminFaqController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 673,
+          "sha1": "3ace5bd23a0d1134b8a6f1196fcba8221a145071"
+        },
+        {
+          "path": "controllers\/AdminLevelController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2187,
+          "sha1": "575224e5a50143bb8d7172b97670c22bad2a70d5"
+        },
+        {
+          "path": "controllers\/AdminOfferTypesController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 7128,
+          "sha1": "d5d520bf1282e9e1dcb7db886672a8df07cf790e"
+        },
+        {
+          "path": "widgets",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/album-rate",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/album-rate\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2994,
+          "sha1": "30e9686b1ebc2755781b8366471e812d5520854c"
+        },
+        {
+          "path": "widgets\/album-rate\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1391,
+          "sha1": "1b2f3b1b122d1079be4f341b32689c622984eddf"
+        },
+        {
+          "path": "widgets\/store-reviewed",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/store-reviewed\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4204,
+          "sha1": "11f99204f1a19e3a049ae4856ecf2cc7a41e2885"
+        },
+        {
+          "path": "widgets\/store-reviewed\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1385,
+          "sha1": "e345b2c03246e259d90341525813cc0da32c6c8d"
+        },
+        {
+          "path": "widgets\/article-rate",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/article-rate\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2999,
+          "sha1": "c4581f25124af40c5add47ff54f08b9f125fd73f"
+        },
+        {
+          "path": "widgets\/article-rate\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1368,
+          "sha1": "fc0efa840fd0bcb0efb9c4cf23a5af2f88169ab4"
+        },
+        {
+          "path": "widgets\/group-rate",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/group-rate\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2838,
+          "sha1": "0429edaf0d32368da50cff0d6150ba93bafcd55e"
+        },
+        {
+          "path": "widgets\/group-rate\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1368,
+          "sha1": "e5a755c1257ff962984fbd5c001c4c41c4ff3441"
+        },
+        {
+          "path": "widgets\/profile-rate",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/profile-rate\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2838,
+          "sha1": "febf20be94eb7248fcecebf6d2b12ce1a1625fcd"
+        },
+        {
+          "path": "widgets\/profile-rate\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1478,
+          "sha1": "5537c2575662ec4954d62af5fa66628b28824409"
+        },
+        {
+          "path": "widgets\/blog-rate",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/blog-rate\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2968,
+          "sha1": "ab1c87189f634984953eac663b469069f3566151"
+        },
+        {
+          "path": "widgets\/blog-rate\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1368,
+          "sha1": "e6f65cb48c2039cf84a0127694349c285433dfbf"
+        },
+        {
+          "path": "widgets\/offer-review",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/offer-review\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2701,
+          "sha1": "b3c6176547ad7b5823035f0cc3a4f400726f0e6d"
+        },
+        {
+          "path": "widgets\/offer-review\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2075,
+          "sha1": "aeb6c84feec2264aa84306c34ad70ed5f5997443"
+        },
+        {
+          "path": "widgets\/offer-reviewed",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/offer-reviewed\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2719,
+          "sha1": "56693528d462e193f923593373cdee46b3f05f5a"
+        },
+        {
+          "path": "widgets\/offer-reviewed\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1366,
+          "sha1": "b3dfe2786f2103a1fa5a405345ced57e14058e91"
+        },
+        {
+          "path": "widgets\/product-rate",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/product-rate\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4167,
+          "sha1": "533a43e9b538d51fbabb5dde60ba06864e919369"
+        },
+        {
+          "path": "widgets\/product-rate\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1381,
+          "sha1": "e8e08e235e0794bf24c0ebd890ad629bb2950022"
+        },
+        {
+          "path": "widgets\/reviews-search",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/reviews-search\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 629,
+          "sha1": "0fba842af3c65d99863026fe421ad27c372c60ca"
+        },
+        {
+          "path": "widgets\/reviews-search\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 829,
+          "sha1": "dc0c8d2f55fb47f9e4bfc9e5d0ee3e59d5688449"
+        },
+        {
+          "path": "widgets\/page-reviewed",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/page-reviewed\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2803,
+          "sha1": "35d597f44b0b2601b65b42bf89cc0b016d0af9bc"
+        },
+        {
+          "path": "widgets\/page-reviewed\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1372,
+          "sha1": "d7d76579f842a7438c91959a708abff5fb85c388"
+        },
+        {
+          "path": "widgets\/page-review",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/page-review\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 4365,
+          "sha1": "2fa0f96fac24b41d56293987b6f30ab5bd7c94c0"
+        },
+        {
+          "path": "widgets\/page-review\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2136,
+          "sha1": "71f06308ee259c30db5541087bc232d895c4f222"
+        },
+        {
+          "path": "widgets\/widget-rate",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/widget-rate\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 3942,
+          "sha1": "471d8280abcf928b757256e9c009cbc47a941984"
+        },
+        {
+          "path": "widgets\/widget-rate\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 3355,
+          "sha1": "a8d4e374507bdb12c90caf7c6c10fc5ec4758409"
+        },
+        {
+          "path": "widgets\/event-rate",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/event-rate\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2840,
+          "sha1": "5c949cbb2678e1c21be792c4b6dfea876232f272"
+        },
+        {
+          "path": "widgets\/event-rate\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1368,
+          "sha1": "e5a755c1257ff962984fbd5c001c4c41c4ff3441"
+        },
+        {
+          "path": "widgets\/browse-reviews",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/browse-reviews\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2602,
+          "sha1": "352d3b0d9e58bdfcf87f765bf815c03cee51a7f4"
+        },
+        {
+          "path": "widgets\/browse-reviews\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 6325,
+          "sha1": "f99be049906f49858b8054d21519dd8c4426cd51"
+        },
+        {
+          "path": "widgets\/quiz-rate",
+          "dir": true,
+          "file": false,
+          "perms": "0777",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/quiz-rate\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 2741,
+          "sha1": "d447bf8b94203cda32a1f00b44c36cc05cc94257"
+        },
+        {
+          "path": "widgets\/quiz-rate\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0777",
+          "size": 1368,
+          "sha1": "e5a755c1257ff962984fbd5c001c4c41c4ff3441"
+        }
+      ]
+    },
+    "application\/languages\/en\/rate.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/rate.csv",
+      "structure": {
+        "path": "rate.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0777",
+        "size": 14303,
+        "sha1": "ebcbc57113e5e91832135d3af0610d70a0a9e96c"
+      }
+    }
+  }
+}

@@ -1,0 +1,648 @@
+
+/* $Id: main.css 2010-07-30 18:00 vadim $ */
+
+@include "~/application/modules/Core/externals/styles/admin/constants.css";
+
+.he_rate_cont .rate_star, .he_rate_small_cont .rate_star {
+  background-image: url(~/application/modules/Rate/externals/images/rate_stars.png);
+  background-repeat: no-repeat;
+  height: 28px;
+  width: 28px;
+  float: left;
+  cursor: pointer;
+}
+
+.he_rate_small_cont .rate_star {
+  background-image: url('~/application/modules/Rate/externals/images/rate_stars_small.png');
+  cursor: auto;
+  height: 10px;
+  width: 15px;
+}
+
+.he_rate_small_cont {
+  height: 12px;
+  margin-top:2px;
+}
+
+.layout_rate_widget_rate {
+  margin-bottom:15px;
+  margin-top:15px;
+}
+
+.he_rate_cont {
+  +foreground;
+  +rounded;
+  padding:7px;
+}
+
+ul.thumbs > li {
+  height:auto; margin-bottom:4px;
+}
+
+ul.thumbs .thumbs_photo {
+  background:$theme_body_background_color;
+}
+
+#he_rate_container {
+  margin-bottom:12px;
+}
+
+.he_rate_cont .rate_stars_cont {
+  margin:auto;
+  height: 28px;
+}
+
+[dir="rtl"] .he_rate_cont .rate_stars_cont {
+	float: right;
+}
+
+.he_rate_small_cont .rate_stars_cont {
+  height: 10px;
+}
+
+.he_rate_cont .no_rate {
+  background-position: 0px 0px;
+}
+
+.he_rate_cont .no_rate:hover {
+  /*background-position: 0px -56px;*/
+}
+
+.he_rate_cont .rated {
+  background-position: 0px -28px;
+}
+
+.he_rate_cont .half_rated {
+  background-position: 0px -84px;
+}
+
+.he_rate_cont .quarter_rated {
+  background-position: 0px -112px;
+}
+
+.he_rate_cont .fquarter_rated {
+  background-position: 0px -140px;
+}
+
+.he_rate_cont .rate {
+  background-position: 0px -56px;
+}
+
+/* Small stars start*/
+.he_rate_small_cont .no_rate {
+  background-position: 0px 0px;
+}
+
+.he_rate_small_cont .rated {
+  background-position: 0px -10px;
+}
+
+.he_rate_small_cont .half_rated {
+  background-position: 0px -30px;
+}
+
+.he_rate_small_cont .quarter_rated {
+  background-position: 0px -40px;
+}
+
+.he_rate_small_cont .fquarter_rated {
+  background-position: 0px -50px;
+}
+
+.he_rate_small_cont .rate {
+  background-position: 0px -20px;
+}
+/* Small stars end*/
+
+.he_rate_cont .rate_loading {
+  text-align:center;
+}
+
+.he_rate_cont .rate_loader {
+  background-image: url('~/application/modules/Rate/externals/images/rate_loader.gif');
+  background-repeat: no-repeat;
+  background-position:right center;
+  padding-right:25px;
+}
+
+.item_rate_info {
+  text-align:center;
+  clear:both;
+}
+
+.item_rate_info .item_score {
+  font-weight:bold;
+}
+
+.item_rate_info .item_votes {
+  margin-left:12px;
+  font-weight:bold;
+}
+
+.he_rate_item {
+  margin-bottom:10px;
+  padding-bottom:6px;
+  border-bottom:1px solid $theme_foreground_border_color;
+}
+
+.he_rate_item_last {
+}
+
+.he_rate_thumb {
+  float:left;
+  width:50px;
+}
+
+.he_rate_body {
+  margin:0;
+  padding-left: 4px;
+  overflow: auto;
+}
+
+.he_rate_title {
+  font-weight:bold;
+  margin-bottom:3px;
+}
+.settings .he_setting_fieldset {
+  +rounded;
+  padding:0 10px;
+  border:2px solid $theme_foreground_border_color;
+}
+
+.settings .he_setting_fieldset .description {
+  display:none;
+}
+
+.settings .he_setting_fieldset .form-element .description {
+  min-width:200px;
+}
+
+.settings .he_setting_fieldset .form-wrapper {
+  padding:10px 0;
+  border:none;
+}
+
+.settings .he_setting_fieldset .form-label {
+  width:160px;
+  font-weight:normal;
+}
+
+.settings .he_setting_fieldset div.form-label label {
+  font-weight:normal;
+}
+
+.he_setting_fieldset legend {
+  padding:0 10px;
+}
+
+.settings .he_rates_settings .form-wrapper {
+  border:none;
+}
+
+.layout_rate_album_rate, .layout_rate_blog_rate, .layout_rate_event_rate,
+.layout_rate_profile_rate, .layout_rate_quiz_rate, .layout_rate_group_rate,
+.layout_rate_article_rate, .layout_rate_page_reviewed, .layout_rate_page_rate {
+  clear:both;
+  /*margin-top:15px;*/
+  /*margin-bottom:15px;*/
+  overflow:auto;
+  /*width:100%;*/
+}
+
+.layout_rate_album_rate ul.thumbs {
+  text-align:center;
+}
+
+.layout_rate_album_rate ul.thumbs li {
+  float:none;
+  margin:10px 0;
+}
+
+.layout_rate_album_rate .rate_stars_cont {
+  width:85px;
+}
+
+.layout_rate_album_rate .rate_align_center .he_rate_small_cont {
+  padding: 0px;
+}
+
+.layout_rate_album_rate .rate_align_center {
+  margin-top:2px;
+}
+
+.layout_rate_blog_rate .he_rate_item {
+  width:100%;
+}
+
+.layout_rate_blog_rate .he_rate_small_cont {
+  padding-left: 0px;
+}
+
+.layout_rate_blog_rate .item_rate_info {
+  text-align: center;
+}
+
+.rate_align_center .he_rate_small_cont {
+  padding-left:36px;
+}
+
+.faq_question {
+  font-size:11px;
+  font-weight:bold;
+  padding:5px 10px;
+  +foreground;
+}
+
+.faq_answer {
+  margin-top: 10px;
+}
+
+.faq_file_src, .faq_file_line {
+  font-size:11px;
+  font-weight:bold;
+}
+
+.faq_question:hover {
+  background-color:#D7E7F0;
+  text-decoration:none;
+}
+
+.faq_snippet_code, .faq_snippet_old_code {
+  color:#007700;
+  font-family:'Courier New',Courier,monospace;
+  background-color: #E2F1F8;
+  border-left: 1px solid #C2C9D1;
+  margin: 8px;
+  padding:5px 5px 5px 20px;
+}
+
+.faq_snippet_old_code {
+  color: #fa4424;
+}
+
+.faq_hidden {
+  display: none;
+}
+
+.rate_faq_list li {
+  margin: 15px 0px;
+}
+
+/* Rate integration */
+.rate_blog_item, .rate_group_item, .rate_event_item, .rate_quiz_item {
+  margin-top: 0px;
+  margin-left: -5px;
+  margin-bottom: -3px;
+}
+
+.rate_user_item {
+  overflow: hidden;
+}
+
+.rate_album_photo_item {
+  padding: 3px;
+  width:146px;
+}
+
+.rate_album_photo_item .he_rate_small_cont {
+  margin:auto;
+  padding: 0px;
+  width: 80px;
+}
+
+.layout_rate_group_rate .he_rate_small_cont, .layout_rate_event_rate .he_rate_small_cont,
+.layout_rate_profile_rate .he_rate_small_cont, .rate_article_item .he_rate_small_cont {
+  padding-left:0px;
+}
+
+.he_review_typeedit .element1 {
+  float:left;
+}
+.he_review_typeedit .element2 {
+  float:left;
+}
+.he_review_typeedit .form-label {
+  width:0;
+}
+.he_review_typeedit div.form-element input[type="text"] {
+  width:380px;
+}
+.he_review_typeedit .options {
+  margin-top:19px;
+  margin-left:5px;
+}
+.he_review_typeedit .create {
+  margin-left:10px;
+  margin-top:7px;
+}
+.pagerate_loader, .pagerate_loader_2, .offerrate_loader {
+  float:right;
+  margin-right:8px;
+  margin-top:8px;
+}
+.pagereview, .offerreview {
+  padding:7px;
+}
+.pagereview.border, .offerreview.border {
+  border-top-width:1px;
+}
+.pagereview.owner, .offerreview.owner {
+  background:$theme_topbar_background_color;
+}
+.pagereview .header, .offerreview .header {
+  font-size:10pt;
+  font-weight:bold;
+}
+.pagereview .posted, .offerreview .posted {
+  font-size: .8em;
+  color: $theme_font_color_light;
+}
+.pagereview .container, .offerreview .container {
+  margin:10px 0;
+}
+.pagereview .he_rate_small_cont, .offerreview .he_rate_small_cont {
+  padding-left:0;
+}
+.review_stars .rate_star, .review_stars_static .rate_star {
+  background-image: url(~/application/modules/Rate/externals/images/rate_stars.png);
+  background-repeat: no-repeat;
+  height: 28px;
+  width: 28px;
+  float: left;
+}
+.reviews_container {
+  +foreground;
+  +rounded;
+  padding:7px;
+}
+.pagereview_view_header, .offerreview_view_header {
+  clear: both;
+}
+.pagereview_view_header > span, .offerreview_view_header > span {
+	float: left;
+	font-weight: bold;
+	font-size: 14px;
+}
+.pagereview_create, .offerreview_create {
+	display: block;
+	float: left;
+	font-weight: bold;
+	background: url('~/application/modules/Rate/externals/images/newreview.png') no-repeat left center;
+	padding-left: 19px;
+}
+.pagereview_container_list, .offerreview_container_list {
+  margin:0 5px;
+}
+
+.review_stars .rate_star {
+  cursor: pointer;
+}
+
+.review_stars .no_rate, .review_stars_static .no_rate{
+  background-position: 0px 0px;
+}
+
+.review_stars .no_rate:hover {
+  background-position: 0px -56px;
+}
+
+.review_stars .rated, .review_stars_static .rated {
+  background-position: 0px -28px;
+}
+
+.review_stars .half_rated, .review_stars_static .half_rated {
+  background-position: 0px -84px;
+}
+
+.review_stars .quarter_rated, .review_stars_static .quarter_rated {
+  background-position: 0px -112px;
+}
+
+.review_stars .fquarter_rated, .review_stars_static .fquarter_rated{
+  background-position: 0px -140px;
+}
+
+.review_stars .rate, .review_stars_static .rate {
+  background-position: 0px -56px;
+}
+
+.review_stars_static .title {
+  float:left;
+}
+
+.review_stars_static .rating {
+  float:left;
+}
+
+.review_stars_static.view {
+  display:block;
+  float:left;
+  margin:4px;
+}
+
+.pagereview_element, .offerreview_element {
+  float:left;
+}
+.pagereview_count, .offerreview_count {
+  float:left;
+  line-height:10px;
+  padding-left:5px;
+}
+
+.pagereview_container_view .review_stars_static, .offerreview_container_view .review_stars_static {
+  border: 1px solid $theme_foreground_border_color;
+  +rounded(4px);
+  margin:2px 0;
+  padding:2px 6px;
+}
+
+.pagereview_container_view .review_stars_static .title, .offerreview_container_view .review_stars_static .title {
+  float:left;
+  font-weight:bold;
+  height:28px;
+  line-height:28px;
+  margin-left:10px;
+  margin-right:3px;
+}
+
+.layout_rate_widget_rate .review_stars_static .title {
+  float:left;
+  font-size:11px;
+  font-weight:bold;
+  margin:3px 4px 8px;
+  color: $theme_headline_color;
+}
+
+.page_list_rating .he_rate_small_cont {
+  padding-left:0px;
+}
+
+.activity_icon_pagereview_new, .activity_icon_offerreview_new {
+  background: url('~/application/modules/Rate/externals/images/newreview.png') no-repeat left center;
+}
+
+.layout_rate_widget_rate .review_stars_static .rating {
+  float:none;
+}
+
+.he_review_typecreate input[name=label]{
+  width:380px;
+}
+
+.notifications_menu .notification_type_rated, .notifications_menu .notification_type_post_pagereview, .notifications .notification_type_rated, .notifications_menu .notification_type_post_offerreview
+{
+  background-image:url('~/application/modules/Rate/externals/images/newreview.png');
+}
+
+.review_widget .rate_star.active_change {
+  cursor:pointer;
+}
+
+ul.rate_list_switcher {
+  border-bottom:1px solid $theme_topbar_minimenu_link_hover_background_color;
+  margin-top:6px;
+  padding-bottom:1px;
+  margin-bottom:10px;
+}
+
+ul.rate_list_switcher li {
+  display:inline;
+}
+
+ul.rate_list_switcher li a {
+  padding:3px 5px;
+  font-size:8pt;
+  white-space:nowrap;
+  +rounded(3px, false, false, true, true);
+}
+
+ul.rate_list_switcher li a.active {
+  background: $theme_topbar_minimenu_link_hover_background_color;
+}
+
+.he_rate_cont .rate_list {
+  display:none;
+}
+
+.he_rate_cont div.active_list {
+  display:block;
+}
+
+.he_rate_no_content {
+  font-size:9pt;
+  padding-bottom:26px;
+  padding-top:25px;
+  text-align:center;
+}
+
+.rate_widget_theme_midnight ul.rate_list_switcher {
+  border-bottom:1px solid $theme_body_background_color;
+  padding-bottom:2px;
+}
+
+.rate_widget_theme_midnight ul.rate_list_switcher li a.active {
+  background:$theme_body_background_color;
+}
+
+div.rate_widget_theme_bamboo {
+  width:auto;
+  padding:0 !important;
+}
+
+div.rate_widget_theme_bamboo h3 {
+  margin:12px 12px 4px;
+}
+
+.page_reviews_browse .reviewer_photo {
+  float: left;
+  margin-right: 8px;
+  overflow: hidden;
+}
+
+.page_reviews_browse .reviews_info {
+  overflow: hidden;
+}
+
+.page_reviews_browse .reviews_info_title {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+ul.page_reviews_browse > li {
+  padding: 0 0 15px;
+}
+
+
+ul.page_reviews_browse > li + li {
+  border-top-width: 1px;
+  padding-top: 15px;
+}
+
+.page_reviews_browse .reviews_additional_info {
+  color: #999999;
+  font-size: 11px;
+}
+
+.page_reviews_browse .reviews_additional_info span {
+  margin-right: 14px;
+}
+
+#reviews_filter_form #keyword {
+  margin-bottom: 14px;
+  margin-top: 10px;
+}
+
+#reviews_filter_form #profile_type {
+  margin-bottom: 12px;
+}
+
+.layout_rate_browse_reviews .page_category_info {
+  background-color: #D3E6EF;
+  border-radius: 3px 3px 3px 3px;
+  font-size: 0.8em;
+  margin: 0 10px 14px 0;
+  padding: 0.4em 0.6em;
+  display: inline-block;
+}
+
+.page_reviews_browse .he_rate_small_cont {
+  color: #999999;
+  font-size: 11px;
+}
+
+.page_reviews_browse .pagereview_element {
+  width: 100px !important;
+}
+
+.page_reviews_browse .posted {
+  margin-top: 4px;
+  margin-bottom: 4px
+}
+
+.page_reviews_browse .for_page {
+  float: right;
+max-width: 195px;
+}
+
+.page_reviews_browse .reviews_rates {
+  float: left;
+  width: 600px;
+}
+.reviews_info_blurb {
+max-width: 600px;
+}
+.for_page a{
+    display: inline-block !important;
+}
+.layout_rate_browse_reviews .paginationControl{
+    float: none;
+    display: inline-block;
+}
+.rate_stars_cont .rate_style{
+    font-size: 20px;
+    color: rgb(243, 187, 8);
+}
+.rate_stars_cont .pagereview_count{
+    font-size: 12px;
+    margin-top: 5px;
+}

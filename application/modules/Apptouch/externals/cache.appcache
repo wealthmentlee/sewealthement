@@ -1,0 +1,40 @@
+CACHE MANIFEST
+# Fonts
+fonts/fontawesome-webfont.eot
+fonts/fontawesome-webfont.svg
+fonts/fontawesome-webfont.ttf
+fonts/fontawesome-webfont.woff
+
+
+
+# Images
+images/ajax-loader.gif
+/images/fake.gif
+images/nophoto_user_thumb_profile.png
+images/rate_stars.png
+images/rate_stars_small.png
+images/icons/credit.png
+images/icons/paypal.png
+images/icons/lists/nophoto.gif
+images/photoswipe/loader.gif
+
+# Audios
+audios/DingLing.mp3
+audios/DingLing.wav
+audios/drip.wav
+
+# Scripts
+scripts/jquery.mobile-1.2.0.js
+scripts/jquery.cookie.js
+scripts/jquery.js
+scripts/picup.js
+
+# Styles
+styles/font-awesome.css
+styles/jquery.ui.datepicker.mobile.css
+
+NETWORK:
+# login.asp
+
+FALLBACK:
+#/html/ /offline.html

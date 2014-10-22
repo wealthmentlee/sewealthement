@@ -3,7 +3,7 @@
   array (
     'type' => 'module',
     'name' => 'hecore',
-    'version' => '4.2.0p9',
+    'version' => '4.2.2',
     'path' => 'application/modules/Hecore',
     'title' => 'Hire-Experts Core Module',
     'description' => 'Hire-Experts Core Module',

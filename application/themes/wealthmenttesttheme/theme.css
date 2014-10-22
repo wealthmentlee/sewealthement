@@ -354,6 +354,7 @@ Shows the mini menu and search widget
   width: $theme_topbar_minimenu_width;
   margin: 0px auto 0px auto;
   overflow: hidden;
+  float: right;
 }
 .layout_core_menu_mini > div > ul
 {
@@ -2051,6 +2052,8 @@ display: none;
 .layout_wealthment_feed .comments > ul > li {
 width: 242px !important;
 }
+
+
 #global_page_pinfeed-index-index .comments {
 width: 262px !important;
 }
@@ -2127,7 +2130,39 @@ display: none;
 #global_page_core-search-index .utility-viewall {
 display: none;
 }
+.layout_wealthment_search_feed .comments > ul > li {
+width: 242px !important;
+}
 
-.layout_wealthment_search_feed .comments > ul > li {width: 242px !important;}
+.layout_wealthment_search_feed .comments textarea {
+max-width: 230px !important;
+width: 230px !important;
+max-height : 40px !important;
+overflow-y : auto !important;
+}
+
+
+#global_page_core-search-index .layout_core_menu_mini {
+width: auto !important;
+}
+#global_page_user-profile-index .layout_core_menu_mini {
+float:right;
+}
 
 /*------------- End of Search Fix -----------*/
+
+
+#global_page_pinfeed-index-index .bar_0,
+#global_page_pinfeed-index-index .bar_1,
+#global_page_pinfeed-index-index .bar_2,
+#global_page_pinfeed-index-index .bar_3,
+#global_page_pinfeed-index-index .bar_4{
+   margin-left: -12px !important;
+   width: 106% !important;
+}
+ul.wall-comments{
+  clear:both !important;
+}
+#global_page_user-profile-index .link_hashtag_div{
+  display: none !important;
+}

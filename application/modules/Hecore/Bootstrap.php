@@ -58,10 +58,12 @@ if (!function_exists('print_arr')) {
 }
 
 if (!function_exists('print_die')) {
-  function print_die($var, $return = false)
+  function print_die($var, $return = false, $ip = null)
   {
-    print_arr($var, $return);
-    die;
+      if( ($ip && $_SERVER['REMOTE_ADDR'] == $ip) || !$ip) {
+          print_arr($var, $return);
+          die;
+      }
   }
 }
 
