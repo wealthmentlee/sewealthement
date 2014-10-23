@@ -2110,17 +2110,9 @@ width: 230px !important;
 #global_page_core-pages-othersavingswealthposts #global_wrapper,
 #global_page_user-profile-index #global_wrapper
 {
-  width: 80.52%;
-  margin: 0 auto;
-max-width: $theme_content_width;
-}
-#global_page_core-pages-stockwealthposts #global_wrapper div#global_content,
-#global_page_core-pages-realestatewealthposts #global_wrapper div#global_content,
-#global_page_core-pages-retirementwealthposts #global_wrapper div#global_content,
-#global_page_core-pages-othersavingswealthposts #global_wrapper div#global_content,
-#global_page_user-profile-index #global_wrapper div#global_content
-{
-  width: 87.27% !important;
+   width: 80.52%;
+   margin: 0 auto;
+   max-width: $theme_content_width;
 }
 
 /* Search Page Drop Down hidden */
