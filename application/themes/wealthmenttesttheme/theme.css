@@ -2115,6 +2115,11 @@ width: 230px !important;
    max-width: $theme_content_width;
 }
 
+/*Blog Rich Text*/
+.rich_content_body p {
+    margin: 0 0 15px;
+}
+
 /* Search Page Drop Down hidden */
 #searchform #type {
 display: none;
