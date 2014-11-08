@@ -95,7 +95,8 @@
     <?php // User's profile photo ?>
     <div class='feed_item_photo'><?php echo $this->htmlLink($action->getSubject()->getHref(),
       $this->itemPhoto($action->getSubject(), 'thumb.icon', $action->getSubject()->getTitle())
-    ) ?></div>
+    ) ?>
+	</div>
 
     <div class='feed_item_body'>
       

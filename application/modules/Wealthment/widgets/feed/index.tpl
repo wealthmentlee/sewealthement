@@ -20,7 +20,7 @@ ul.feed{
   margin-left: 0 !important;
 }
 .wall-action-item {
-width: 305px !important;
+width: 290px  !important;
 }
 </style>
 <?php if( !empty($this->feedOnly) && empty($this->checkUpdate)): // ajax?>

@@ -10,7 +10,35 @@
  * @author     John
  */
 ?>
-
+<!-- change code -->
 <div id='profile_photo'>
   <?php echo $this->itemPhoto($this->subject()) ?>
+   <?php
+				$tbl_fieldValues = Engine_Api::_()->fields()->getTable('user', 'values');
+				$selectPro = $tbl_fieldValues->select()
+									->where("item_id =?",$this->subject()->getIdentity())->where('field_id =?',24);				
+				$proVal = $tbl_fieldValues->fetchRow($selectPro);
+				if($proVal->value!=''){
+				$optiontable = Engine_Api::_()->fields()->getTable('user', 'options');
+				
+				$selectLabel = $optiontable->select()->where("option_id =?",$proVal->value);
+				$label = $tbl_fieldValues->fetchRow($selectLabel);
+				$isprofessional = $label->label;
+				
+				if($isprofessional== 'Yes'){
+		  ?>
+					<div class="badge"><img src="./application/modules/Pinfeed/externals/images/badge.png"></div>
+		  <?php } }?>
 </div>
+<style>
+	#global_page_user-profile-index .layout_user_profile_photo {
+	  position: relative;
+	}
+	#global_page_user-profile-index .layout_user_profile_photo #profile_photo .badge > img {
+	  bottom: 0;
+	  position: absolute;
+	  right: 6px;
+	  width: 78px;
+	}
+</style>
+<!-- change code -->

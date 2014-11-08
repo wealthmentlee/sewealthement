@@ -3,6 +3,16 @@
 .wallFeed {
   margin: 10px 0;
 }
+ul.feed .feed_item_photo {
+  position: relative;
+}
+
+ul.feed .feed_item_photo .badge > img {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    width: 40px;
+}
 .wallFeed .wall-stream-header {
   border-bottom: 1px solid $theme_border_medium_color;
   overflow: hidden;

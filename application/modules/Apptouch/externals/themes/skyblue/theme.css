@@ -4895,3 +4895,26 @@ Custom Styles
 #user_auth_login_rewrite #user_form_login > div{
     background-color: rgba(255, 255, 255, .2);
 }
+.feed-category > select {
+    border: medium none;
+    color: #525252;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: normal;
+    height: 2.4em;
+    left: 0;
+    max-height: 100%;
+    min-height: 100%;
+    text-align: center;
+    top: 0;
+    width: 98%;
+    z-index: 2;
+}
+.feed-category {
+  border: medium none !important;
+  display: block;
+  margin: 0.5em 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}

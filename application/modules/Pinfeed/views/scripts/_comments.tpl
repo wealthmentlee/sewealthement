@@ -122,6 +122,7 @@
 
         <?php foreach($comments  as $comment ): ?>
           <li rev="item-<?php echo $comment->comment_id ?>" class="wall-comment-item" id="comment-<?php echo $comment->comment_id ?>">
+	<!-- change code -->
              <div class="comments_author_photo">
 
 
@@ -130,16 +131,47 @@
                 <?php echo $this->htmlLink($this->action->getObject()->getHref(),
                   $this->itemPhoto($this->action->getObject(), 'thumb.icon', $this->action->getObject()->getTitle()),
                   array('class' => 'wall_liketips', 'rev' => $this->action->getObject()->getGuid())) ?>
-                 
+                <?php
+						$tbl_fieldValues = Engine_Api::_()->fields()->getTable('user', 'values');
+						$selectPro = $tbl_fieldValues->select()
+											->where("item_id =?",$this->action->getObject()->getIdentity())->where('field_id =?',24);				
+						$proVal = $tbl_fieldValues->fetchRow($selectPro);
+						if($proVal->value!=''){
+						$optiontable = Engine_Api::_()->fields()->getTable('user', 'options');
+						
+						$selectLabel = $optiontable->select()->where("option_id =?",$proVal->value);
+						$label = $tbl_fieldValues->fetchRow($selectLabel);
+						$isprofessional = $label->label;
+						if($isprofessional== 'Yes'){
+					?>
+						<div class="badge"><img src="./application/modules/Pinfeed/externals/images/badge.png"></div>
+					<?php } }?>
                <?php else :?>
 
                 <?php echo $this->htmlLink($this->item($comment->poster_type, $comment->poster_id)->getHref(),
                   $this->itemPhoto($this->item($comment->poster_type, $comment->poster_id), 'thumb.icon', $this->action->getSubject()->getTitle()),
                   array('class' => 'wall_liketips', 'rev' => $this->item($comment->poster_type, $comment->poster_id)->getGuid())) ?>
-
+				    <?php
+						$tbl_fieldValues = Engine_Api::_()->fields()->getTable('user', 'values');
+						$selectPro = $tbl_fieldValues->select()
+											->where("item_id =?",$this->item($comment->poster_type, $comment->poster_id)->getIdentity())->where('field_id =?',24);				
+						$proVal = $tbl_fieldValues->fetchRow($selectPro);
+						if($proVal->value!=''){
+						$optiontable = Engine_Api::_()->fields()->getTable('user', 'options');
+						
+						$selectLabel = $optiontable->select()->where("option_id =?",$proVal->value);
+						$label = $tbl_fieldValues->fetchRow($selectLabel);
+						$isprofessional = $label->label;
+						if($isprofessional== 'Yes'){
+					?>
+						<div class="badge"><img src="./application/modules/Pinfeed/externals/images/badge.png"></div>
+					<?php } }?>
+				
                <?php endif ;?>
 
              </div>
+	<!-- change code -->
+			  
              <div class="comments_info">
                <span class='comments_author'>
 

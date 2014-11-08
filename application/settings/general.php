@@ -4,5 +4,5 @@
     'enabled' => false,
     'code' => 'gvehd',
   ),
-  'environment_mode' => 'production',
+  'environment_mode' => 'development',
 ); ?>

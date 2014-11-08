@@ -72,6 +72,8 @@ class Apptouch_ActivityController
         // Check if form is valid
         $postData = $this->getRequest()->getPost();
         $body = @$postData['body'];
+        $cat = @$postData['cat'];
+		
         $body = html_entity_decode($body, ENT_QUOTES, 'UTF-8');
         $body = html_entity_decode($body, ENT_QUOTES, 'UTF-8');
         //$body = htmlentities($body, ENT_QUOTES, 'UTF-8');
@@ -482,7 +484,10 @@ class Apptouch_ActivityController
             $db->rollBack();
             throw $e; // This should be caught by error handler
         }
-
+		
+		$action->cat = $postData['cat'];
+		$action->save();
+		
         if ($this->isWall) {
             if ($action) {
                 Engine_Api::_()->getDbTable('userSettings', 'wall')->saveLastPrivacy($action, $this->_getParam('privacy'), $viewer);

@@ -2,10 +2,10 @@
   'adapter' => 'mysqli',
   'params' => 
   array (
-    'host' => 'localhost',
-    'username' => 'dev1',
+    'host' => 'wealthmentprod.c1fku54iim6w.us-east-1.rds.amazonaws.com',
+    'username' => 'dev',
     'password' => 'wealthment',
-    'dbname' => 'dev1',
+    'dbname' => 'dev',
     'charset' => 'UTF8',
     'adapterNamespace' => 'Zend_Db_Adapter',
   ),

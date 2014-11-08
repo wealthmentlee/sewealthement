@@ -118,7 +118,19 @@
           <div class="feed-body">
             <textarea rows="1" cols="1" name="body" class="feed-textarea body ui-content ui-body-c"  placeholder="<?php echo $this->translate('APPTOUCH_FEED_SHARE');?>"></textarea>
           </div>
-
+		  
+		  <div class="feed-category">
+			<?php  if(!$this->cat) { ?>
+                <select name="cat">
+                    <option value="0">All</option>
+                    <option value="1">Stocks</option>
+                    <option value="2">Real Estate</option>
+                    <option value="3">Retirement</option>
+                    <option value="4">Other Savings</option>
+                </select>
+            <?php } ?>
+		  </div>
+		  
           <div class="feed-photo-form" style="display: none;">
             <input type="file" name="photo" id="photo"/>
             <label for="photo"><?php echo $this->translate('Add Photo')?></label>
@@ -1112,4 +1124,3 @@
 
 </div>
 <?php // TPL END ?>
-

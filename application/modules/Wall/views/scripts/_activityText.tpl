@@ -234,24 +234,58 @@ foreach ($actions as $action): // (goes to the end of the file)
 
 
       <?php // User's profile photo ?>
+	  
+	  <!-- change code -->
+	  
       <div class='feed_item_photo'>
 
         <?php if (Engine_Api::_()->wall()->isOwnerTeamMember($action->getObject(), $action->getSubject())): ?>
 
           <?php echo $this->htmlLink($action->getObject()->getHref(),
             $this->itemPhoto($action->getObject(), 'thumb.icon', $action->getObject()->getTitle()), array('class' => 'wall_liketips', 'rev' => $action->getObject()->getGuid())) ?>
-
+			<?php
+				$tbl_fieldValues = Engine_Api::_()->fields()->getTable('user', 'values');
+				$selectPro = $tbl_fieldValues->select()
+									->where("item_id =?",$action->getObject()->getIdentity())->where('field_id =?',24);				
+				$proVal = $tbl_fieldValues->fetchRow($selectPro);
+				if($proVal->value!=''){
+				$optiontable = Engine_Api::_()->fields()->getTable('user', 'options');
+				
+				$selectLabel = $optiontable->select()->where("option_id =?",$proVal->value);
+				$label = $tbl_fieldValues->fetchRow($selectLabel);
+				$isprofessional = $label->label;
+				
+				if($isprofessional== 'Yes'){
+		    ?>
+					<div class="badge"><img src="./application/modules/Pinfeed/externals/images/badge.png"></div>
+		    <?php } }?>
         <?php else : ?>
 
           <?php echo $this->htmlLink($action->getSubject()->getHref(),
             $this->itemPhoto($action->getSubject(), 'thumb.icon', $action->getSubject()->getTitle()), array('class' => 'wall_liketips', 'rev' => $action->getSubject()->getGuid())) ?>
-
+			<?php
+				$tbl_fieldValues = Engine_Api::_()->fields()->getTable('user', 'values');
+				$selectPro = $tbl_fieldValues->select()
+									->where("item_id =?",$action->getSubject()->getIdentity())->where('field_id =?',24);				
+				$proVal = $tbl_fieldValues->fetchRow($selectPro);
+				if($proVal->value!=''){
+				$optiontable = Engine_Api::_()->fields()->getTable('user', 'options');
+				
+				$selectLabel = $optiontable->select()->where("option_id =?",$proVal->value);
+				$label = $tbl_fieldValues->fetchRow($selectLabel);
+				$isprofessional = $label->label;
+				
+				if($isprofessional== 'Yes'){
+		  ?>
+					<div class="badge"><img src="./application/modules/Pinfeed/externals/images/badge.png"></div>
+		  <?php } }?>
         <?php endif;
 
         ?>
 
       </div>
-
+	  
+	<!-- change code -->
 
       <div class='feed_item_body feed_item_body_<?php $_item = current($action->getAttachments())->item; echo $_item ? strtolower($_item->getModuleName()) . '_' . $_item->getType() : 'none' ?>'>
 

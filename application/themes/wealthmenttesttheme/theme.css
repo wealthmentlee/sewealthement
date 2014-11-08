@@ -2166,3 +2166,6 @@ ul.wall-comments{
 #global_page_user-profile-index .link_hashtag_div{
   display: none !important;
 }
+#global_page_blog-index-view .rich_content_body  p{
+margin: 10px 0 !important;
+}

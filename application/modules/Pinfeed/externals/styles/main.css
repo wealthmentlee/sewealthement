@@ -92,12 +92,26 @@ float: left !important;
 
 
 }
-
-
-.pinfeed > li .feed_item_photo{
-    float: left;
-    padding-right: 6px;
-    margin-bottom: 2px;
+.comments .comments_author_photo {
+	position: relative;
+}
+.comments .comments_author_photo .badge > img {
+	bottom: 0;
+	position: absolute;
+	right: 0px;
+	width: 20px;
+}
+.pinfeed > li .feed_item_photo {
+  float: left;
+  margin-bottom: 2px;
+  padding-right: 6px;
+  position: relative;
+}
+.feed_item_photo .badge > img {
+  bottom: 0;
+  position: absolute;
+  right: 0px;
+  width: 40px;
 }
 .pinfeed > li .feed_item_generated, ul.pinfeed > li .feed_item_posted{
     display: inline-block;

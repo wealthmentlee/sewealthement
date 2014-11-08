@@ -122,9 +122,37 @@ foreach ($actions as $action): // (goes to the end of the file)
       <li rev="item-<?php echo $action->action_id ?>" class="wall-action-item wall-items-pinfeed">
           
     <?php endif; ?>
-<div class="home_pin_bar bar_<?php echo $action->cat ?>">
+	<?php if(($action->object_type)=='blog'){
+		$blogid=$action->object_id;
+		$blog = Engine_Api::_()->getItem('blog', $blogid);
+	?>
+		<?php if($blog->category_id==3){ ?>
+			<div class="home_pin_bar bar_2">
+		<?php } ?>
+		<?php if($blog->category_id==1){ ?>
+			<div class="home_pin_bar bar_0">
+		<?php } ?>
+		<?php if($blog->category_id==6){ ?>
+			<div class="home_pin_bar bar_4">
+		<?php } ?>
+		<?php if($blog->category_id==2){ ?>
+			<div class="home_pin_bar bar_1">
+		<?php } ?>
+		<?php if($blog->category_id==5){ ?>
+			<div class="home_pin_bar bar_3">
+		<?php } ?>
+              <?php   
+					if( !empty($blog->category_id) ) {
+						echo $category = Engine_Api::_()->getDbtable('categories', 'blog')
+						->find($blog->category_id)->current();
+					} 
+				?>
+		</div>
+	<?php } else {?>
+		<div class="home_pin_bar bar_<?php echo $action->cat ?>">
               <?php echo $wealthApi->getCatLabel($action->cat); ?>
-          </div>
+		</div>
+	<?php } ?>
     <?php if (isset($action->grouped_subjects) && count($action->grouped_subjects) > 1): ?>
       <div class='feed_item_body'>
 
@@ -229,24 +257,58 @@ foreach ($actions as $action): // (goes to the end of the file)
 
 
       <?php // User's profile photo ?>
+	  
+	  <!-- change code -->
+	  
       <div class='feed_item_photo'>
 
         <?php if (Engine_Api::_()->wall()->isOwnerTeamMember($action->getObject(), $action->getSubject())): ?>
 
           <?php echo $this->htmlLink($action->getObject()->getHref(),
             $this->itemPhoto($action->getObject(), 'thumb.icon', $action->getObject()->getTitle()), array('class' => 'wall_liketips', 'rev' => $action->getObject()->getGuid())) ?>
-
+		  <?php
+				$tbl_fieldValues = Engine_Api::_()->fields()->getTable('user', 'values');
+				$selectPro = $tbl_fieldValues->select()
+									->where("item_id =?",$action->getObject()->getIdentity())->where('field_id =?',24);				
+				$proVal = $tbl_fieldValues->fetchRow($selectPro);
+				if($proVal->value!=''){
+				$optiontable = Engine_Api::_()->fields()->getTable('user', 'options');
+				
+				$selectLabel = $optiontable->select()->where("option_id =?",$proVal->value);
+				$label = $tbl_fieldValues->fetchRow($selectLabel);
+				$isprofessional = $label->label;
+				
+				if($isprofessional== 'Yes'){
+		  ?>
+					<div class="badge"><img src="./application/modules/Pinfeed/externals/images/badge.png"></div>
+		  <?php } }?>
         <?php else : ?>
 
           <?php echo $this->htmlLink($action->getSubject()->getHref(),
             $this->itemPhoto($action->getSubject(), 'thumb.icon', $action->getSubject()->getTitle()), array('class' => 'wall_liketips', 'rev' => $action->getSubject()->getGuid())) ?>
+			<?php
+				$tbl_fieldValues = Engine_Api::_()->fields()->getTable('user', 'values');
+				$selectPro = $tbl_fieldValues->select()
+									->where("item_id =?",$action->getSubject()->getIdentity())->where('field_id =?',24);				
+				$proVal = $tbl_fieldValues->fetchRow($selectPro);
+				if($proVal->value!=''){
+				$optiontable = Engine_Api::_()->fields()->getTable('user', 'options');
+				
+				$selectLabel = $optiontable->select()->where("option_id =?",$proVal->value);
+				$label = $tbl_fieldValues->fetchRow($selectLabel);
+				$isprofessional = $label->label;
+				
+				if($isprofessional== 'Yes'){
+		  ?>
+					<div class="badge"><img src="./application/modules/Pinfeed/externals/images/badge.png"></div>
+		  <?php } }?>
 
         <?php endif;
 
         ?>
-
+		
       </div>
-
+	 <!-- change code -->
 
       <div class='feed_item_body'>
 
